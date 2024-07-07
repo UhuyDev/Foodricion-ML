@@ -27,7 +27,7 @@ def bow(sentence, words, show_details=True):
                     print ("found in bag: %s" % w)
     return(np.array(bag))
 
-p = bow("makanan apa yang mengan", words)
+p = bow("vitamin c", words)
 res = model.predict(np.array([p]))[0]
 ERROR_THRESHOLD = 0.25
 results = [[i,r] for i,r in enumerate(res) if r>ERROR_THRESHOLD]

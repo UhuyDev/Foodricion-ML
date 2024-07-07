@@ -58,4 +58,4 @@ def chatbot_response(msg):
     return res
 
 # Example usage:
-print(chatbot_response('haii'))
+print(chatbot_response('halo'))
