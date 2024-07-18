@@ -160,6 +160,21 @@
             ]
         },
         {
+            "tag": "nutrisi",
+            "patterns": [
+              "Apa Itu Nutrisi?",
+              "Nutrisi",
+              "nutrisi"
+            ],
+            "responses": [
+              "Nutrisi adalah zat yang diperlukan oleh tubuh untuk pertumbuhan, perbaikan, dan pemeliharaan fungsi vital. Nutrisi diperoleh melalui makanan dan minuman yang kita konsumsi dan mencakup enam kategori utama: karbohidrat, protein, lemak, vitamin, mineral, dan air. Karbohidrat, protein, dan lemak menyediakan energi, sedangkan vitamin dan mineral mendukung berbagai fungsi tubuh seperti memperkuat sistem kekebalan, menjaga kesehatan tulang, dan membantu proses metabolisme. "
+
+            ],
+            "context":[
+                ""
+            ]
+        },
+        {
             "tag": "mengandung vitamin a",
             "patterns": [
               "Apa saja makanan yang mengandung vitamin A?",
@@ -410,6 +425,125 @@
             "context":[
                 ""
             ]
-        }       
+        },
+        {
+            "tag": "diet",
+            "patterns": [
+                "Apa Itu Diet?",
+                "Diet",
+                "diet"
+            ],
+            "responses": [
+                "Diet adalah pola makan yang diatur untuk tujuan tertentu, seperti menurunkan berat badan, menjaga kesehatan, atau memenuhi kebutuhan nutrisi tertentu. Diet bisa mencakup pengaturan jenis dan jumlah makanan serta waktu makan. Ada berbagai jenis diet, seperti diet rendah karbohidrat, diet tinggi protein, diet vegetarian, dan diet keto, yang masing-masing memiliki prinsip dan tujuan spesifik."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "diet keto",
+            "patterns": [
+                "Apa Itu Diet Keto?",
+                "Diet Keto",
+                "diet keto",
+                "Keto",
+                "keto"
+            ],
+            "responses": [
+                "Diet keto adalah pola makan yang sangat rendah karbohidrat dan tinggi lemak, dirancang untuk menempatkan tubuh dalam kondisi ketosis. Dalam kondisi ini, tubuh membakar lemak sebagai sumber utama energi, bukan karbohidrat. Diet keto sering kali mencakup konsumsi daging, ikan, telur, produk susu tinggi lemak, minyak, dan sayuran rendah karbohidrat. Tujuan diet keto adalah untuk menurunkan berat badan dan meningkatkan kesehatan metabolik."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "diet vegetarian",
+            "patterns": [
+                "Apa Itu Diet Vegetarian?",
+                "Diet Vegetarian",
+                "diet vegetarian",
+                "Vegetarian",
+                "vegetarian"
+            ],
+            "responses": [
+                "Vegetarian adalah pola makan yang menghindari konsumsi daging dan ikan, dan lebih mengutamakan makanan dari tumbuhan seperti sayuran, buah-buahan, biji-bijian, kacang-kacangan, dan produk olahan susu serta telur (untuk tipe ovo-lakto vegetarian). Tujuan dari diet ini bisa bervariasi, mulai dari alasan kesehatan, lingkungan, hingga etika. Diet vegetarian sering kali kaya akan serat, vitamin, dan antioksidan, yang dapat membantu dalam menjaga kesehatan jantung, mengontrol berat badan, dan meningkatkan kesehatan secara keseluruhan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "diet Paleo",
+            "patterns": [
+                "Apa Itu Diet Paleo?",
+                "Diet Paleo",
+                "diet Paleo",
+                "Paleo",
+                "paleo"
+            ],
+            "responses": [
+                "Diet Paleo, juga dikenal sebagai diet manusia purba atau diet paleolitik, adalah pola makan yang didasarkan pada makanan yang diasumsikan dikonsumsi oleh manusia pada era paleolitikum. Diet ini mencakup daging tanpa lemak, ikan, buah-buahan, sayuran, kacang-kacangan, dan biji-bijian, sambil menghindari makanan olahan, gula, produk susu, dan biji-bijian olahan. Tujuan diet Paleo adalah untuk meningkatkan kesehatan dan kebugaran dengan mengonsumsi makanan alami dan menghindari makanan modern yang dianggap dapat menyebabkan berbagai penyakit."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "vitamin a_manfaat",
+            "patterns": [
+                "Bagaimana vitamin A mempengaruhi kesehatan mata?",
+                "Apa manfaat vitamin A untuk kulit?",
+                "Bagaimana cara mendapatkan vitamin A yang cukup dalam diet saya?"
+            ],
+            "responses": [
+                "Vitamin A membantu menjaga kesehatan mata dengan mempertahankan kesehatan sel-sel mata dan meningkatkan penglihatan di malam hari.",
+                "Vitamin A memiliki manfaat untuk kulit dengan mempertahankan kelembapan dan menjaga kulit tetap sehat dan bercahaya.",
+                "Anda dapat mendapatkan vitamin A yang cukup dengan mengonsumsi makanan seperti wortel, bayam, ubi jalar, hati sapi, dan kuning telur secara teratur."
+            ],
+            "context": []
+        },
+        {
+            "tag": "protein_manfaat",
+            "patterns": [
+                "Apa manfaat protein untuk otot?",
+                "Bagaimana cara mendapatkan protein yang cukup jika saya vegetarian?",
+                "Berapa banyak protein yang harus saya konsumsi setiap hari?"
+            ],
+            "responses": [
+                "Protein membantu dalam pertumbuhan dan pemulihan otot setelah latihan, sehingga penting untuk mempertahankan massa otot.",
+                "Jika Anda vegetarian, Anda dapat mendapatkan protein dari sumber seperti produk kedelai, kacang-kacangan, biji-bijian, dan sayuran hijau.",
+                "Jumlah protein yang dianjurkan setiap hari bervariasi tergantung pada usia, jenis kelamin, dan tingkat aktivitas, tetapi rata-rata sekitar 46 gram per hari untuk wanita dan 56 gram per hari untuk pria."
+            ],
+            "context": []
+        },
+        {
+            "tag": "kalsium_manfaat",
+            "patterns": [
+                "Mengapa kalsium penting untuk tulang?",
+                "Apa saja makanan yang mengandung kalsium selain susu?",
+                "Bagaimana cara meningkatkan penyerapan kalsium dalam tubuh?"
+            ],
+            "responses": [
+                "Kalsium penting untuk menjaga kepadatan tulang dan mencegah osteoporosis. Ini membantu dalam pembentukan dan pemeliharaan tulang yang kuat.",
+                "Selain susu, makanan yang mengandung kalsium termasuk sayuran berdaun hijau seperti bayam, ikan teri, kacang-kacangan, dan produk kedelai.",
+                "Penyerapan kalsium dapat ditingkatkan dengan mengonsumsi vitamin D, yang membantu tubuh menyerap kalsium lebih efektif. Anda juga dapat meningkatkan penyerapan kalsium dengan menghindari makanan yang mengandung fosfat yang tinggi."
+            ],
+            "context": []
+        },
+        {
+            "tag": "serat_manfaat",
+            "patterns": [
+                "Apa manfaat serat untuk pencernaan?",
+                "Bagaimana cara meningkatkan asupan serat dalam diet saya?",
+                "Apa dampak negatif dari kurangnya serat dalam diet?"
+            ],
+            "responses": [
+                "Serat membantu menjaga kesehatan pencernaan dengan mencegah sembelit dan menjaga sistem pencernaan tetap sehat.",
+                "Anda dapat meningkatkan asupan serat dengan mengonsumsi lebih banyak sayuran hijau, buah-buahan, kacang-kacangan, biji-bijian, dan gandum utuh.",
+                "Kurangnya serat dalam diet dapat menyebabkan sembelit, peningkatan risiko penyakit jantung, dan masalah pencernaan lainnya."
+            ],
+            "context": []
+        },
+
     ]
 }
