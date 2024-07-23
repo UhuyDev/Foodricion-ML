@@ -528,6 +528,579 @@
                 "Kurangnya serat dalam diet dapat menyebabkan sembelit, peningkatan risiko penyakit jantung, dan masalah pencernaan lainnya."
             ],
             "context": []
+        },
+        {
+            "tag": "makanan_sehat",
+            "patterns": [
+                "Apa itu makanan sehat?",
+                "Contoh makanan sehat apa saja?",
+                "Makanan sehat itu seperti apa?",
+                "Bagaimana ciri-ciri makanan sehat?",
+                "Makanan sehat terdiri dari apa saja?"
+            ],
+            "responses": [
+                "Makanan sehat adalah makanan yang mengandung nutrisi yang dibutuhkan tubuh dan rendah bahan tambahan berbahaya. Contoh makanan sehat antara lain buah-buahan, sayuran, biji-bijian, dan protein tanpa lemak. Penting untuk memilih makanan sehat untuk mendukung kesehatan tubuh dan mencegah penyakit."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "makanan_organik",
+            "patterns": [
+                "Apa itu makanan organik?",
+                "Mengapa makanan organik lebih baik?",
+                "Bagaimana cara mengetahui makanan organik?",
+                "Apa saja manfaat makanan organik?",
+                "Apakah makanan organik lebih sehat?",
+                "Bagaimana cara memilih makanan organik?"
+            ],
+            "responses": [
+                "Makanan organik adalah makanan yang diproduksi tanpa menggunakan pestisida atau bahan kimia sintetis. Makanan organik sering dianggap lebih sehat karena bebas dari bahan kimia berbahaya. Anda bisa mengetahui makanan organik dari label sertifikasi pada kemasannya."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "sayuran",
+            "patterns": [
+                "Apa manfaat sayuran bagi kesehatan?",
+                "Sayuran apa yang baik untuk diet?",
+                "Bagaimana cara mengolah sayuran agar tetap sehat?",
+                "Berapa banyak sayuran yang harus dikonsumsi setiap hari?",
+                "Apa sayuran terbaik untuk kesehatan kulit?",
+                "Mengapa penting makan sayuran?",
+                "Bagaimana cara memasak sayuran agar tetap bergizi?"
+            ],
+            "responses": [
+                "Sayuran mengandung banyak vitamin, mineral, dan serat yang baik untuk kesehatan. Sayuran hijau seperti bayam dan brokoli sangat baik untuk diet. Untuk menjaga nutrisinya, sayuran sebaiknya dikukus atau direbus sebentar."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "buah-buahan",
+            "patterns": [
+                "Apa manfaat buah-buahan bagi kesehatan?",
+                "Buah apa yang baik untuk diet?",
+                "Bagaimana cara memilih buah yang matang?",
+                "Berapa banyak buah yang harus dikonsumsi setiap hari?",
+                "Apa buah terbaik untuk kesehatan kulit?",
+                "Mengapa penting makan buah?",
+                "Bagaimana cara memilih buah yang bagus?"
+            ],
+            "responses": [
+                "Buah-buahan kaya akan vitamin dan antioksidan yang baik untuk kesehatan. Buah-buahan seperti apel, pisang, dan jeruk sangat baik untuk diet. Untuk memilih buah matang, perhatikan tekstur dan aromanya."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "diet_seimbang",
+            "patterns": [
+                "Apa itu diet seimbang?",
+                "Bagaimana cara menjaga diet seimbang?",
+                "Mengapa diet seimbang penting?",
+                "Apa saja komponen diet seimbang?",
+                "Bagaimana cara merencanakan diet seimbang?",
+                "Apa manfaat diet seimbang?",
+                "Bagaimana cara menerapkan diet seimbang dalam kehidupan sehari-hari?"
+            ],
+            "responses": [
+                "Diet seimbang adalah pola makan yang mencakup semua kelompok makanan dalam proporsi yang tepat. Diet seimbang penting untuk menjaga kesehatan dan mencegah penyakit. Komponen diet seimbang meliputi protein, lemak sehat, karbohidrat, serta buah dan sayuran."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "alergi_makanan",
+            "patterns": [
+                "Apa itu alergi makanan?",
+                "Apa saja gejala alergi makanan?",
+                "Bagaimana cara mengetahui alergi makanan?",
+                "Apa yang harus dilakukan jika mengalami alergi makanan?",
+                "Makanan apa yang sering menyebabkan alergi?",
+                "Bagaimana cara mengatasi alergi makanan?",
+                "Mengapa alergi makanan bisa terjadi?"
+            ],
+            "responses": [
+                "Alergi makanan adalah reaksi berlebihan sistem imun terhadap makanan tertentu. Gejala alergi makanan bisa berupa gatal-gatal, bengkak, atau sesak napas. Tes alergi bisa membantu mengetahui makanan yang menyebabkan alergi."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "intoleransi_laktosa",
+            "patterns": [
+                "Apa itu intoleransi laktosa?",
+                "Apa saja gejala intoleransi laktosa?",
+                "Bagaimana cara mengelola intoleransi laktosa?",
+                "Apakah ada pengganti susu untuk orang yang intoleransi laktosa?",
+                "Apa yang menyebabkan intoleransi laktosa?",
+                "Bagaimana cara menghindari gejala intoleransi laktosa?",
+                "Apakah intoleransi laktosa bisa sembuh?"
+            ],
+            "responses": [
+                "Intoleransi laktosa adalah ketidakmampuan mencerna laktosa, gula yang ditemukan dalam susu. Gejalanya meliputi kembung, diare, dan sakit perut setelah mengonsumsi produk susu. Susu bebas laktosa atau susu nabati bisa menjadi alternatif bagi penderita intoleransi laktosa."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "pemanis_buatan",
+            "patterns": [
+                "Apa itu pemanis buatan?",
+                "Apakah pemanis buatan aman untuk dikonsumsi?",
+                "Apa saja jenis pemanis buatan?",
+                "Apa efek samping dari pemanis buatan?",
+                "Mengapa orang menggunakan pemanis buatan?",
+                "Apa manfaat menggunakan pemanis buatan?"
+            ],
+            "responses": [
+                "Pemanis buatan adalah zat yang digunakan untuk memberikan rasa manis tanpa kalori. Keamanan pemanis buatan masih diperdebatkan, tetapi umumnya dianggap aman dalam jumlah terbatas. Contoh pemanis buatan termasuk aspartam, sakarin, dan sucralose."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "makanan_fermentasi",
+            "patterns": [
+                "Apa itu makanan fermentasi?",
+                "Apa saja contoh makanan fermentasi?",
+                "Apa manfaat makanan fermentasi?",
+                "Bagaimana cara membuat makanan fermentasi?",
+                "Apakah makanan fermentasi baik untuk pencernaan?",
+                "Bagaimana cara mengkonsumsi makanan fermentasi dengan benar?"
+            ],
+            "responses": [
+                "Makanan fermentasi adalah makanan yang diolah dengan bantuan mikroorganisme. Contoh makanan fermentasi antara lain yogurt, kimchi, dan tempe. Makanan fermentasi baik untuk kesehatan pencernaan karena mengandung probiotik."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kafein",
+            "patterns": [
+                "Apa efek kafein pada tubuh?",
+                "Berapa batas aman konsumsi kafein per hari?",
+                "Apa saja sumber kafein selain kopi?",
+                "Apakah kafein bisa menyebabkan ketergantungan?",
+                "Bagaimana cara mengurangi konsumsi kafein?",
+                "Apakah kafein memiliki manfaat kesehatan?"
+            ],
+            "responses": [
+                "Kafein adalah stimulan yang bisa meningkatkan energi dan kewaspadaan. Batas aman konsumsi kafein adalah sekitar 400 mg per hari untuk orang dewasa. Selain kopi, kafein juga terdapat dalam teh, minuman energi, dan cokelat."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "gluten",
+            "patterns": [
+                "Apa itu gluten?",
+                "Apa saja gejala intoleransi gluten?",
+                "Bagaimana cara menghindari gluten dalam makanan?",
+                "Makanan apa yang bebas gluten?",
+                "Apakah diet bebas gluten sehat untuk semua orang?",
+                "Mengapa orang menghindari gluten?"
+            ],
+            "responses": [
+                "Gluten adalah protein yang ditemukan dalam gandum, barley, dan rye. Gejala intoleransi gluten bisa berupa sakit perut, diare, dan kembung. Untuk menghindari gluten, pilih makanan yang berlabel bebas gluten."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "gizi_balita",
+            "patterns": [
+                "Bagaimana memenuhi kebutuhan gizi balita?",
+                "Apa saja makanan sehat untuk balita?",
+                "Berapa banyak kalori yang dibutuhkan balita setiap hari?",
+                "Bagaimana cara memperkenalkan makanan baru kepada balita?",
+                "Apa tanda balita kekurangan gizi?",
+                "Bagaimana cara memastikan balita mendapatkan nutrisi yang cukup?"
+            ],
+            "responses": [
+                "Kebutuhan gizi balita dapat dipenuhi dengan memberikan makanan seimbang yang mencakup semua kelompok makanan. Makanan sehat untuk balita meliputi buah-buahan, sayuran, protein, dan biji-bijian. Kalori yang dibutuhkan balita bervariasi tergantung pada usia, berat badan, dan tingkat aktivitas."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "vegetarian",
+            "patterns": [
+                "Apa itu vegetarian?",
+                "Apa saja jenis-jenis vegetarian?",
+                "Bagaimana cara menjadi vegetarian yang sehat?",
+                "Apa manfaat diet vegetarian?",
+                "Apa saja makanan pengganti daging bagi vegetarian?",
+                "Mengapa orang memilih menjadi vegetarian?"
+            ],
+            "responses": [
+                "Vegetarian adalah seseorang yang tidak mengonsumsi daging. Jenis-jenis vegetarian meliputi lacto-vegetarian, ovo-vegetarian, dan vegan. Untuk menjadi vegetarian yang sehat, pastikan mengonsumsi berbagai macam makanan untuk mendapatkan semua nutrisi yang dibutuhkan."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "vegan",
+            "patterns": [
+                "Apa itu vegan?",
+                "Bagaimana cara menjadi vegan yang sehat?",
+                "Apa manfaat diet vegan?",
+                "Apa saja tantangan menjadi vegan?",
+                "Apa saja makanan pengganti produk hewani bagi vegan?",
+                "Mengapa orang memilih menjadi vegan?"
+            ],
+            "responses": [
+                "Vegan adalah seseorang yang tidak mengonsumsi produk hewani sama sekali. Manfaat diet vegan termasuk penurunan risiko penyakit jantung dan kanker. Tantangan menjadi vegan termasuk memastikan asupan nutrisi yang cukup, seperti vitamin B12 dan zat besi."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "superfood",
+            "patterns": [
+                "Apa itu superfood?",
+                "Apa saja contoh superfood?",
+                "Apa manfaat superfood?",
+                "Bagaimana cara mengonsumsi superfood?",
+                "Apakah superfood benar-benar lebih baik?",
+                "Mengapa superfood dianggap istimewa?"
+            ],
+            "responses": [
+                "Superfood adalah makanan yang sangat kaya nutrisi dan memiliki banyak manfaat kesehatan. Contoh superfood termasuk blueberry, kale, quinoa, dan chia seed. Manfaat superfood termasuk meningkatkan energi, meningkatkan kesehatan jantung, dan mendukung sistem kekebalan tubuh."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "minuman_sehat",
+            "patterns": [
+                "Apa saja minuman sehat yang bisa dikonsumsi setiap hari?",
+                "Bagaimana cara membuat minuman sehat di rumah?",
+                "Apa manfaat minuman sehat?",
+                "Minuman apa yang baik untuk detoksifikasi tubuh?",
+                "Apa minuman terbaik untuk meningkatkan energi?",
+                "Mengapa penting mengonsumsi minuman sehat?"
+            ],
+            "responses": [
+                "Minuman sehat termasuk air putih, jus buah tanpa gula, dan teh herbal. Manfaat minuman sehat termasuk hidrasi, detoksifikasi, dan peningkatan energi. Teh hijau dan air lemon adalah contoh minuman yang baik untuk detoksifikasi tubuh."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "pengawet_makanan",
+            "patterns": [
+                "Apa itu pengawet makanan?",
+                "Apakah pengawet makanan aman dikonsumsi?",
+                "Apa saja jenis pengawet makanan?",
+                "Bagaimana cara menghindari makanan dengan pengawet?",
+                "Apa efek samping pengawet makanan?",
+                "Mengapa pengawet makanan digunakan?"
+            ],
+            "responses": [
+                "Pengawet makanan adalah zat yang ditambahkan untuk mencegah kerusakan dan memperpanjang umur simpan makanan. Beberapa pengawet makanan aman dikonsumsi, namun ada juga yang dapat menyebabkan efek samping jika dikonsumsi berlebihan. Jenis-jenis pengawet makanan meliputi pengawet alami seperti garam dan gula, serta pengawet sintetis seperti benzoat dan nitrat."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "hidratasi",
+            "patterns": [
+                "Mengapa hidrasi penting?",
+                "Berapa banyak air yang harus diminum setiap hari?",
+                "Apa tanda-tanda dehidrasi?",
+                "Bagaimana cara menjaga hidrasi yang baik?",
+                "Apa saja sumber cairan selain air putih?",
+                "Apa manfaat hidrasi yang baik untuk tubuh?"
+            ],
+            "responses": [
+                "Hidrasi penting untuk menjaga fungsi tubuh dan kesehatan secara keseluruhan. Kebanyakan orang disarankan untuk minum sekitar 8 gelas air per hari, tetapi kebutuhan bisa bervariasi. Tanda-tanda dehidrasi termasuk rasa haus, mulut kering, dan urine berwarna gelap."
+            ],
+            "context": [""]
+        },
+        {
+          "tag": "metabolisme",
+          "patterns": [
+            "Apa itu metabolisme?",
+            "Bagaimana cara meningkatkan metabolisme?",
+            "Apa faktor yang mempengaruhi metabolisme?",
+            "Mengapa metabolisme penting untuk kesehatan?",
+            "Apa makanan yang bisa meningkatkan metabolisme?",
+            "Bagaimana cara kerja metabolisme dalam tubuh?"
+          ],
+          "responses": [
+            "Metabolisme adalah proses di mana tubuh mengubah makanan menjadi energi. Cara meningkatkan metabolisme termasuk olahraga, makan protein, dan tidur yang cukup. Faktor yang mempengaruhi metabolisme meliputi usia, jenis kelamin, dan genetik."
+          ],
+          "context": [
+            ""
+          ]
+        },
+        {
+            "tag": "snack_sehat",
+            "patterns": [
+                "Apa saja snack sehat yang bisa dikonsumsi setiap hari?",
+                "Bagaimana cara membuat snack sehat di rumah?",
+                "Apa manfaat snack sehat?",
+                "Snack apa yang baik untuk diet?",
+                "Apa snack sehat yang baik untuk anak-anak?"
+            ],
+            "responses": [
+                "Snack sehat termasuk buah segar, kacang-kacangan, dan yogurt tanpa gula. Snack sehat bisa membantu menjaga energi dan mencegah makan berlebihan. Untuk anak-anak, snack sehat seperti potongan buah dan sayur sangat baik."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "makanan_cepat_saji",
+            "patterns": [
+                "Apa efek makanan cepat saji pada kesehatan?",
+                "Mengapa makanan cepat saji dianggap tidak sehat?",
+                "Bagaimana cara mengurangi konsumsi makanan cepat saji?",
+                "Apa alternatif sehat untuk makanan cepat saji?",
+                "Apa bahaya jangka panjang dari makanan cepat saji?"
+            ],
+            "responses": [
+                "Makanan cepat saji sering mengandung banyak lemak, garam, dan kalori yang dapat berdampak negatif pada kesehatan. Mengurangi konsumsi makanan cepat saji bisa dilakukan dengan memasak sendiri di rumah dan memilih makanan yang lebih sehat. Alternatif sehat termasuk salad, sandwich dengan roti gandum, dan makanan panggang."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kolesterol",
+            "patterns": [
+                "Apa itu kolesterol?",
+                "Apa saja makanan yang bisa menurunkan kolesterol?",
+                "Bagaimana cara menjaga kadar kolesterol yang sehat?",
+                "Apa perbedaan antara kolesterol baik dan kolesterol jahat?",
+                "Apa saja gejala kolesterol tinggi?"
+            ],
+            "responses": [
+                "Kolesterol adalah zat lemak yang ditemukan dalam darah, dibutuhkan untuk membangun sel-sel yang sehat. Makanan yang bisa menurunkan kolesterol termasuk oatmeal, kacang-kacangan, dan ikan berlemak. Kolesterol baik (HDL) membantu menghilangkan kolesterol jahat (LDL) dari arteri."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kesehatan_jantung",
+            "patterns": [
+                "Bagaimana cara menjaga kesehatan jantung?",
+                "Apa saja makanan yang baik untuk jantung?",
+                "Mengapa kesehatan jantung penting?",
+                "Apa saja faktor risiko penyakit jantung?",
+                "Bagaimana olahraga mempengaruhi kesehatan jantung?"
+            ],
+            "responses": [
+                "Menjaga kesehatan jantung bisa dilakukan dengan makan makanan sehat, olahraga, dan tidak merokok. Makanan yang baik untuk jantung termasuk buah-buahan, sayuran, biji-bijian, dan ikan berlemak. Kesehatan jantung penting karena jantung adalah organ vital yang memompa darah ke seluruh tubuh."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "sistem_imun",
+            "patterns": [
+                "Apa itu sistem imun?",
+                "Bagaimana cara memperkuat sistem imun?",
+                "Apa saja makanan yang baik untuk sistem imun?",
+                "Mengapa penting menjaga sistem imun?",
+                "Apa tanda-tanda sistem imun yang lemah?"
+            ],
+            "responses": [
+                "Sistem imun adalah pertahanan tubuh terhadap infeksi dan penyakit. Memperkuat sistem imun bisa dilakukan dengan makan makanan bergizi, cukup tidur, dan olahraga. Makanan yang baik untuk sistem imun termasuk buah-buahan sitrus, bawang putih, dan jahe."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "alergi_gandum",
+            "patterns": [
+                "Apa itu alergi gandum?",
+                "Apa saja gejala alergi gandum?",
+                "Bagaimana cara mengelola alergi gandum?",
+                "Apa saja makanan yang harus dihindari jika alergi gandum?",
+                "Apakah ada pengganti gandum bagi penderita alergi?"
+            ],
+            "responses": [
+                "Alergi gandum adalah reaksi alergi terhadap protein dalam gandum. Gejala alergi gandum bisa berupa gatal-gatal, bengkak, dan kesulitan bernapas. Pengganti gandum termasuk tepung almond, tepung kelapa, dan tepung jagung."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "hidup_sehat",
+            "patterns": [
+                "Apa saja tips hidup sehat?",
+                "Bagaimana cara memulai gaya hidup sehat?",
+                "Mengapa penting untuk menjalani hidup sehat?",
+                "Apa manfaat hidup sehat?",
+                "Bagaimana cara menjaga konsistensi dalam hidup sehat?"
+            ],
+            "responses": [
+                "Tips hidup sehat termasuk makan makanan bergizi, berolahraga, dan cukup tidur. Hidup sehat penting untuk mencegah penyakit dan meningkatkan kualitas hidup. Manfaat hidup sehat termasuk peningkatan energi, berat badan ideal, dan mood yang lebih baik."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "makanan_mentah",
+            "patterns": [
+                "Apa manfaat makanan mentah?",
+                "Apa saja makanan yang bisa dimakan mentah?",
+                "Bagaimana cara mengolah makanan mentah agar aman dikonsumsi?",
+                "Apa risiko makan makanan mentah?",
+                "Apa yang dimaksud dengan diet makanan mentah?"
+            ],
+            "responses": [
+                "Makanan mentah mengandung enzim dan nutrisi yang bisa hilang selama proses memasak. Contoh makanan yang bisa dimakan mentah termasuk buah-buahan, sayuran, dan kacang-kacangan. Risiko makan makanan mentah termasuk kontaminasi bakteri, sehingga penting untuk mencuci dengan baik."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "suplemen",
+            "patterns": [
+                "Apa itu suplemen?",
+                "Kapan sebaiknya mengonsumsi suplemen?",
+                "Apakah suplemen diperlukan jika sudah makan sehat?",
+                "Apa saja jenis suplemen yang umum?",
+                "Apa efek samping dari suplemen?"
+            ],
+            "responses": [
+                "Suplemen adalah produk yang mengandung satu atau lebih nutrisi tambahan untuk melengkapi diet. Suplemen sebaiknya dikonsumsi jika kebutuhan nutrisi tidak tercukupi dari makanan. Jenis suplemen yang umum termasuk vitamin, mineral, dan asam amino."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "detoksifikasi",
+            "patterns": [
+                "Apa itu detoksifikasi?",
+                "Bagaimana cara melakukan detoksifikasi tubuh?",
+                "Apa manfaat detoksifikasi?",
+                "Apakah detoksifikasi diperlukan?",
+                "Apa saja makanan yang membantu detoksifikasi tubuh?"
+            ],
+            "responses": [
+                "Detoksifikasi adalah proses membersihkan tubuh dari racun. Cara melakukan detoksifikasi termasuk minum banyak air, makan makanan berserat, dan menghindari makanan olahan. Makanan yang membantu detoksifikasi termasuk sayuran hijau, buah-buahan, dan air lemon."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "pola_makan",
+            "patterns": [
+                "Apa itu pola makan sehat?",
+                "Bagaimana cara mengatur pola makan sehat?",
+                "Apa saja contoh pola makan sehat?",
+                "Mengapa pola makan sehat penting?",
+                "Bagaimana cara memulai pola makan sehat?"
+            ],
+            "responses": [
+                "Pola makan sehat adalah pola makan yang seimbang dan mencakup semua kelompok makanan. Mengatur pola makan sehat bisa dilakukan dengan merencanakan menu dan menghindari makanan olahan. Contoh pola makan sehat termasuk diet mediterania dan diet DASH."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "hidrasi_olahraga",
+            "patterns": [
+                "Mengapa penting untuk hidrasi saat berolahraga?",
+                "Berapa banyak air yang harus diminum saat berolahraga?",
+                "Apa tanda-tanda dehidrasi saat berolahraga?",
+                "Bagaimana cara menjaga hidrasi saat berolahraga?",
+                "Apa minuman terbaik untuk hidrasi saat berolahraga?"
+            ],
+            "responses": [
+                "Hidrasi saat berolahraga penting untuk menjaga performa dan mencegah dehidrasi. Jumlah air yang harus diminum tergantung pada durasi dan intensitas olahraga, tetapi umumnya sekitar 500-600 ml per jam. Minuman elektrolit bisa membantu menggantikan cairan dan mineral yang hilang selama olahraga."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kulit_sehat",
+            "patterns": [
+                "Apa saja makanan yang baik untuk kulit?",
+                "Bagaimana cara menjaga kesehatan kulit?",
+                "Apa manfaat minum air untuk kulit?",
+                "Apa saja kebiasaan yang buruk untuk kulit?",
+                "Bagaimana pola makan mempengaruhi kesehatan kulit?"
+            ],
+            "responses": [
+                "Makanan yang baik untuk kulit termasuk buah-buahan, sayuran, kacang-kacangan, dan ikan berlemak. Menjaga kesehatan kulit bisa dilakukan dengan hidrasi yang cukup, diet sehat, dan perlindungan dari sinar matahari. Minum air yang cukup membantu menjaga kulit tetap lembap dan elastis."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "gizi_lansia",
+            "patterns": [
+                "Bagaimana memenuhi kebutuhan gizi lansia?",
+                "Apa saja makanan sehat untuk lansia?",
+                "Berapa banyak kalori yang dibutuhkan lansia setiap hari?",
+                "Apa saja nutrisi penting untuk lansia?",
+                "Bagaimana cara meningkatkan nafsu makan lansia?"
+            ],
+            "responses": [
+                "Kebutuhan gizi lansia dapat dipenuhi dengan makanan yang seimbang dan kaya nutrisi. Makanan sehat untuk lansia meliputi buah-buahan, sayuran, protein tanpa lemak, dan biji-bijian. Nutrisi penting untuk lansia termasuk kalsium, vitamin D, dan serat."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "asupan_gizi",
+            "patterns": [
+                "Apa itu asupan gizi?",
+                "Bagaimana cara memastikan asupan gizi yang cukup?",
+                "Mengapa asupan gizi penting?",
+                "Apa saja tanda-tanda kekurangan gizi?",
+                "Apa saja sumber asupan gizi yang baik?"
+            ],
+            "responses": [
+                "Asupan gizi adalah jumlah nutrisi yang diperoleh dari makanan yang dikonsumsi. Memastikan asupan gizi yang cukup bisa dilakukan dengan makan berbagai macam makanan sehat. Asupan gizi penting untuk mendukung fungsi tubuh dan mencegah penyakit."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "makanan_tinggi_garam",
+            "patterns": [
+                "Apa efek makanan tinggi garam pada kesehatan?",
+                "Bagaimana cara mengurangi konsumsi garam?",
+                "Apa saja makanan yang tinggi garam?",
+                "Mengapa garam penting, tapi harus dibatasi?",
+                "Bagaimana cara mengetahui kandungan garam dalam makanan?"
+            ],
+            "responses": [
+                "Makanan tinggi garam dapat meningkatkan risiko tekanan darah tinggi dan penyakit jantung. Mengurangi konsumsi garam bisa dilakukan dengan memilih makanan segar dan menghindari makanan olahan. Makanan tinggi garam termasuk makanan kaleng, makanan cepat saji, dan makanan ringan kemasan."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "camilan_sehat",
+            "patterns": [
+                "Apa saja camilan sehat yang bisa dikonsumsi setiap hari?",
+                "Bagaimana cara membuat camilan sehat di rumah?",
+                "Apa manfaat camilan sehat?",
+                "Camilan apa yang baik untuk diet?",
+                "Apa camilan sehat yang baik untuk anak-anak?"
+            ],
+            "responses": [
+                "Camilan sehat termasuk buah segar, kacang-kacangan, dan yogurt tanpa gula. Camilan sehat bisa membantu menjaga energi dan mencegah makan berlebihan. Untuk anak-anak, camilan sehat seperti potongan buah dan sayur sangat baik."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "diet_detoks",
+            "patterns": [
+                "Apa itu diet detoks?",
+                "Bagaimana cara melakukan diet detoks?",
+                "Apa manfaat diet detoks?",
+                "Apakah diet detoks diperlukan?",
+                "Apa saja makanan yang dikonsumsi saat diet detoks?"
+            ],
+            "responses": [
+                "Diet detoks adalah pola makan yang dirancang untuk membersihkan tubuh dari racun. Cara melakukan diet detoks termasuk minum banyak air, makan makanan berserat, dan menghindari makanan olahan. Makanan yang dikonsumsi saat diet detoks termasuk sayuran hijau, buah-buahan, dan air lemon."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "manfaat_olahraga",
+            "patterns": [
+                "Apa saja manfaat olahraga?",
+                "Berapa kali seminggu sebaiknya berolahraga?",
+                "Apa saja jenis olahraga yang baik untuk kesehatan?",
+                "Bagaimana cara memulai rutinitas olahraga?",
+                "Mengapa olahraga penting untuk kesehatan?"
+            ],
+            "responses": [
+                "Manfaat olahraga termasuk meningkatkan kesehatan jantung, mengontrol berat badan, dan meningkatkan suasana hati. Olahraga sebaiknya dilakukan setidaknya 150 menit per minggu. Jenis olahraga yang baik untuk kesehatan termasuk berjalan, berlari, berenang, dan angkat beban."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "diet_alkaline",
+            "patterns": [
+                "Apa itu diet alkaline?",
+                "Bagaimana cara melakukan diet alkaline?",
+                "Apa manfaat diet alkaline?",
+                "Apakah diet alkaline diperlukan?",
+                "Apa saja makanan yang dikonsumsi saat diet alkaline?"
+            ],
+            "responses": [
+                "Diet alkaline adalah pola makan yang berfokus pada makanan yang dapat meningkatkan pH tubuh menjadi lebih basa. Manfaat diet alkaline termasuk peningkatan energi dan kesehatan tulang. Makanan yang dikonsumsi saat diet alkaline termasuk sayuran hijau, buah-buahan, dan kacang-kacangan."
+            ],
+            "context": [""]
         }
+
+
     ]
 }
