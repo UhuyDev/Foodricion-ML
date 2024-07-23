@@ -10,11 +10,8 @@
                 ""
             ],
             "responses": [
-                "Maaf tidak tahu",
-                "saya tidak tahu",
-                "kata diluar kemampuan kami",
                 "mungkin anda bisa menanyakan mengenai seputar nutrisi makanan",
-                "mungkin anda bisa menanyakan mengenai aplikasi ini"
+                "mungkin anda bisa menanyakan mengenai aplikasi ini sepeti berrrikut apa yang bisa kamu lakukan?"
             ],
             "context": [
                 ""
@@ -53,18 +50,10 @@
                 "hi"
             ],
             "responses": [
-                "Halo, ada yang bisa saya bantu?",
                 "Hai, ada yang ingin Anda tanyakan?",
                 "Bagaimana saya bisa membantumu hari ini?",
                 "Apa yang bisa saya lakukan untuk Anda?",
-                "Ada yang spesifik menegenai makanan yang ingin Anda ketahui?",
-                "Apakah Anda membutuhkan bantuan hari ini?",
-                "halo, silahkan bertanya",
-                "Silahkan Jangan ragu untuk bertanya jika ada yang perlu Anda tanyakan.",
-                "Tentu, saya di sini untuk membantu Anda.",
-                "Apa yang mau Anda ketahui?",
-                "silahkan tanyakan saja",
-                "ada yang bisa saya bantu?"
+                "Apa yang mau Anda ketahui?"
             ],
             "context": [
                 ""
@@ -80,14 +69,13 @@
                 "Selamat tinggal",
                 "Saya pergi",
                 "Bye",
-                "Semoga harimu menyenangkan",
                 "bicara nanti",
-                "saya harus pergi"
+                "saya harus pergi",
+                "terima kasih"
             ],
             "responses": [
                 "Sedih melihatmu pergi :(",
                 "Sampai berjumpa kembali dilain waktu",
-                "Selamat tinggal!",
                 "Jangan lupakan kami"
             ],
             "context":[
@@ -115,14 +103,11 @@
                 "Ok, terima kasih",
                 "makasih",
                 "terimakasih",
-                "thq"
+                "tq",
+                "ty"
             ],
             "responses": [
-                "sama-sama",
-                "sama-sama, jika ada yang ingin ditanyakan lagi?",
-                "sama-sama, saya disini membantu anda",
-                "saya selalu disini membantu anda",
-                "baik, ada yang ingin ditanyakan lagi?"
+                "sama-sama, apakah ada yang ingin ditanyakan lagi?"
             ],
             "context":[
                 ""
@@ -543,7 +528,6 @@
                 "Kurangnya serat dalam diet dapat menyebabkan sembelit, peningkatan risiko penyakit jantung, dan masalah pencernaan lainnya."
             ],
             "context": []
-        },
-
+        }
     ]
 }
