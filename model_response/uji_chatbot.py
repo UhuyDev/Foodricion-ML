@@ -4,11 +4,16 @@ import numpy as np
 import tensorflow as tf
 import json
 import pickle
+from transformers import TFBertModel, BertTokenizer
 
 # Load trained data
 words = pickle.load(open('../chatbotmodel/words.pkl', 'rb'))
 classes = pickle.load(open('../chatbotmodel/classes.pkl', 'rb'))
 model = tf.keras.models.load_model('../chatbotmodel/chatbot.h5')
+
+# Initialize BERT tokenizer and model
+tokenizer = BertTokenizer.from_pretrained("cahya/bert-base-indonesian-522M")
+bert_model = TFBertModel.from_pretrained("cahya/bert-base-indonesian-522M")
 
 def clean_up_sentence(sentence):
     lemmatizer = WordNetLemmatizer()
@@ -27,12 +32,36 @@ def bow(sentence, words, show_details=True):
                     print ("found in bag: %s" % w)
     return(np.array(bag))
 
-p = bow("vitamin c", words)
-res = model.predict(np.array([p]))[0]
-ERROR_THRESHOLD = 0.25
-results = [[i,r] for i,r in enumerate(res) if r>ERROR_THRESHOLD]
-results.sort(key=lambda x: x[1], reverse=True)
-return_list = []
-for r in results:
-    return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
-print(return_list)
+
+def get_bert_embeddings(texts):
+    inputs = tokenizer(texts, return_tensors='tf', padding=True, truncation=True)
+    outputs = bert_model(**inputs)
+    last_hidden_state = outputs.last_hidden_state
+    mean_embeddings = tf.reduce_mean(last_hidden_state, axis=1)
+    return mean_embeddings.numpy()
+
+def predict_class(sentence):
+    # Get BERT embeddings for the input sentence
+    embeddings = get_bert_embeddings(sentence)
+    # Reshape embeddings to match model input shape (batch_size, time_steps, features)
+    embeddings = np.expand_dims(embeddings, axis=1)  # Shape (1, 1, 768)
+
+    # Make prediction
+    res = model.predict(embeddings)[0]
+
+    # Process the results
+    ERROR_THRESHOLD = 0.25
+    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+    results.sort(key=lambda x: x[1], reverse=True)
+
+    return_list = []
+    for r in results:
+        return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
+
+    return return_list
+
+
+# Example usage
+sentence = "apa saja komponen diet seimbang"
+result = predict_class(sentence)
+print(result)
