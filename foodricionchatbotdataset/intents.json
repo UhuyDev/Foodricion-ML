@@ -30,7 +30,6 @@
                 "Selamat sore",
                 "Selamat malam",
                 "Apa kabar?",
-                "Bagaimana hari Anda?",
                 "Tolong bantu saya",
                 "mau tanya",
                 "Hay",
@@ -114,50 +113,23 @@
             ]
         },
         {
-            "tag": "tugas",
-            "patterns": [
-                "Apa yang bisa kamu lakukan",
-                "bisa apa aja",
-                "kamu bisa menjawab pertanyaan ada apa saja",
-                "scope pertanyaanmu ada apa saja",
-                "bagaimana kamu bisa membantu saya",
-                "Untuk apa saya menggunakan mu"
-            ],
-            "responses": [
-                "Saya dapat membantu ada menjawab beberapa pertanyaan seputar nutrisi makanan, diet, manfaat nutrisi, sumber makanan, dll."
-            ],
-            "context":[
-                ""
-            ]
-        },
-        {
-            "tag": "vitamin a",
-            "patterns": [
-                "Apa itu Vitamin A?",
-                "Vitamin a",
-                "vitamin a"
-            ],
-            "responses": [
-                "Vitamin A adalah nutrisi penting yang mendukung kesehatan mata, sistem kekebalan tubuh, dan perkembangan sel-sel tubuh."
-            ],
-            "context":[
-                ""
-            ]
-        },
-        {
-            "tag": "nutrisi",
-            "patterns": [
-              "Apa Itu Nutrisi?",
-              "Nutrisi",
-              "nutrisi"
-            ],
-            "responses": [
-              "Nutrisi adalah zat yang diperlukan oleh tubuh untuk pertumbuhan, perbaikan, dan pemeliharaan fungsi vital. Nutrisi diperoleh melalui makanan dan minuman yang kita konsumsi dan mencakup enam kategori utama: karbohidrat, protein, lemak, vitamin, mineral, dan air. Karbohidrat, protein, dan lemak menyediakan energi, sedangkan vitamin dan mineral mendukung berbagai fungsi tubuh seperti memperkuat sistem kekebalan, menjaga kesehatan tulang, dan membantu proses metabolisme. "
-
-            ],
-            "context":[
-                ""
-            ]
+          "tag": "tugas",
+          "patterns": [
+            "Apa yang bisa kamu lakukan?",
+            "Bisa apa saja?",
+            "Kamu bisa bantu dengan apa saja?",
+            "Apa saja yang bisa kamu jawab?",
+            "Scope pertanyaanmu apa saja?",
+            "Bagaimana kamu bisa membantu saya?",
+            "Untuk apa saya menggunakanmu?",
+            "Apa kemampuanmu?",
+            "Apa yang dapat kamu bantu?",
+            "Apa yang bisa kamu jawab?"
+          ],
+          "responses": [
+            "Saya dapat membantu Anda menjawab beberapa pertanyaan seputar nutrisi makanan, diet, manfaat nutrisi, sumber makanan, dll."
+          ],
+          "context": [""]
         },
         {
             "tag": "mengandung vitamin a",
@@ -180,20 +152,6 @@
             "context":[
                 ""
             ]
-        },       
-        {
-            "tag": "vitamin b",
-            "patterns": [
-              "Apa itu Vitamin B?",
-              "Vitamin b",
-              "vitamin b"
-            ],
-            "responses": [
-              "Vitamin B adalah kelompok vitamin yang penting untuk metabolisme energi, fungsi saraf, dan produksi sel darah merah. Beberapa jenis vitamin B meliputi B1 (tiamin), B2 (riboflavin), B3 (niasin), B6 (piridoksin), B9 (asam folat), dan B12 (kobalamin)."
-            ],
-            "context":[
-                ""
-            ]
         },
         {
             "tag": "mengandung vitamin b",
@@ -212,20 +170,6 @@
               "Anda dapat meningkatkan asupan vitamin B dengan mengonsumsi lebih banyak daging, ikan, telur, susu, sayuran hijau, kacang-kacangan, dan biji-bijian dalam diet sehari-hari.",
               "Ya, makanan sehat yang mengandung banyak vitamin B antara lain daging, ikan, telur, susu, sayuran hijau, kacang-kacangan, dan biji-bijian.",
               "Untuk memenuhi kebutuhan vitamin B, Anda bisa mengonsumsi daging, ikan, telur, susu, sayuran hijau, kacang-kacangan, dan biji-bijian secara teratur."
-            ],
-            "context":[
-                ""
-            ]
-        },   
-        {
-            "tag": "vitamin c",
-            "patterns":[
-                "Aap itu Vitamin C?",
-                "Vitamin c",
-                "vitamin c"
-            ],
-            "responses":[
-                "Vitamin C adalah nutrisi penting yang diperlukan oleh tubuh untuk fungsi kekebalan, pertumbuhan jaringan, dan penyerapan zat besi."
             ],
             "context":[
                 ""
@@ -254,20 +198,6 @@
             ]
         },
         {
-            "tag": "protein",
-            "patterns": [
-              "Apa itu protein?",
-              "Protein",
-              "protein"
-            ],
-            "responses": [
-              "Protein adalah nutrisi penting yang dibutuhkan oleh tubuh untuk membangun dan memperbaiki jaringan, serta untuk fungsi enzimatik dan hormonal."
-            ],
-            "context":[
-                ""
-            ]
-        },
-        {
             "tag": "mengandung protein",
             "patterns": [
               "Apa saja makanan yang mengandung protein?",
@@ -284,20 +214,6 @@
               "Anda dapat meningkatkan asupan protein dengan mengonsumsi lebih banyak daging, ikan, telur, susu, produk kedelai, kacang-kacangan, dan biji-bijian dalam diet sehari-hari.",
               "Ya, makanan sehat yang mengandung banyak protein antara lain daging, ikan, telur, susu, produk kedelai, kacang-kacangan, dan biji-bijian.",
               "Untuk memenuhi kebutuhan protein, Anda bisa mengonsumsi daging, ikan, telur, susu, produk kedelai, kacang-kacangan, dan biji-bijian secara teratur."
-            ],
-            "context":[
-                ""
-            ]
-        },
-        {
-            "tag": "karbohidrat",
-            "patterns": [
-              "Apa itu karbohidrat?",
-              "Karbohidrat",
-              "karbohidrat"
-            ],
-            "responses": [
-              "Karbohidrat adalah salah satu jenis nutrisi utama yang diperlukan oleh tubuh untuk energi."
             ],
             "context":[
                 ""
@@ -326,34 +242,6 @@
             ]
         },
         {
-            "tag": "lemak",
-            "patterns": [
-              "Apa itu lemak?",
-              "Lemak",
-              "lemak"
-            ],
-            "responses": [
-              "Lemak adalah salah satu jenis nutrisi yang penting untuk tubuh, digunakan sebagai sumber energi cadangan dan untuk penyerapan vitamin tertentu. Makanan yang kaya akan lemak termasuk minyak zaitun, alpukat, kacang-kacangan, ikan berlemak (seperti salmon), dan telur."
-            ],
-            "context":[
-                ""
-            ]
-        },
-        {
-            "tag": "serat",
-            "patterns": [
-              "Apa itu serat?",
-              "Serat",
-              "serat"
-            ],
-            "responses": [
-              "Serat adalah jenis zat yang ditemukan dalam makanan tumbuhan yang tidak dapat dicerna oleh tubuh manusia. Serat penting untuk menjaga kesehatan pencernaan dan mencegah sembelit."
-            ],
-            "context":[
-                ""
-            ]
-        },
-        {
             "tag": "mengandung serat",
             "patterns": [
               "Apa saja makanan yang mengandung serat?",
@@ -370,20 +258,6 @@
               "Anda dapat meningkatkan asupan serat dengan mengonsumsi lebih banyak sayuran hijau, buah-buahan, kacang-kacangan, biji-bijian, dan gandum utuh dalam diet sehari-hari.",
               "Ya, makanan sehat yang mengandung banyak serat antara lain sayuran hijau, buah-buahan, kacang-kacangan, biji-bijian, dan gandum utuh.",
               "Untuk memenuhi kebutuhan serat, Anda bisa mengonsumsi sayuran hijau, buah-buahan, kacang-kacangan, biji-bijian, dan gandum utuh secara teratur."
-            ],
-            "context":[
-                ""
-            ]
-        },
-        {
-            "tag": "kalsium",
-            "patterns": [
-              "Apa itu kalsium?",
-              "Kalsium",
-              "kalsium"
-            ],
-            "responses": [
-              "Kalsium adalah mineral yang penting untuk kesehatan tulang dan gigi. Kalsium juga berperan dalam kontraksi otot, pengaturan tekanan darah, dan fungsi saraf."
             ],
             "context":[
                 ""
@@ -412,122 +286,259 @@
             ]
         },
         {
-            "tag": "diet",
-            "patterns": [
-                "Apa Itu Diet?",
-                "Diet",
-                "diet"
-            ],
-            "responses": [
-                "Diet adalah pola makan yang diatur untuk tujuan tertentu, seperti menurunkan berat badan, menjaga kesehatan, atau memenuhi kebutuhan nutrisi tertentu. Diet bisa mencakup pengaturan jenis dan jumlah makanan serta waktu makan. Ada berbagai jenis diet, seperti diet rendah karbohidrat, diet tinggi protein, diet vegetarian, dan diet keto, yang masing-masing memiliki prinsip dan tujuan spesifik."
-            ],
-            "context": [
-                ""
-            ]
+          "tag": "vitamin a",
+          "patterns": [
+            "Apa itu Vitamin A?",
+            "Vitamin A itu apa?",
+            "Apa yang dimaksud dengan Vitamin A?",
+            "Bisakah kamu jelaskan tentang Vitamin A?",
+            "Vitamin A",
+            "Beritahu saya tentang Vitamin A",
+            "Ceritakan tentang Vitamin A",
+            "Apa manfaat dari Vitamin A?",
+            "Kenapa Vitamin A penting?"
+          ],
+          "responses": [
+            "Vitamin A adalah nutrisi penting yang mendukung kesehatan mata, sistem kekebalan tubuh, dan perkembangan sel-sel tubuh."
+          ],
+          "context": [""]
         },
         {
-            "tag": "diet keto",
-            "patterns": [
-                "Apa Itu Diet Keto?",
-                "Diet Keto",
-                "diet keto",
-                "Keto",
-                "keto"
-            ],
-            "responses": [
-                "Diet keto adalah pola makan yang sangat rendah karbohidrat dan tinggi lemak, dirancang untuk menempatkan tubuh dalam kondisi ketosis. Dalam kondisi ini, tubuh membakar lemak sebagai sumber utama energi, bukan karbohidrat. Diet keto sering kali mencakup konsumsi daging, ikan, telur, produk susu tinggi lemak, minyak, dan sayuran rendah karbohidrat. Tujuan diet keto adalah untuk menurunkan berat badan dan meningkatkan kesehatan metabolik."
-            ],
-            "context": [
-                ""
-            ]
+          "tag": "nutrisi",
+          "patterns": [
+            "Apa itu nutrisi?",
+            "Apa yang dimaksud dengan nutrisi?",
+            "Jelaskan tentang nutrisi.",
+            "Apa pentingnya nutrisi?",
+            "Nutrisi",
+            "Bisakah kamu menjelaskan apa itu nutrisi?",
+            "Apa saja yang termasuk dalam nutrisi?",
+            "Nutrisi itu apa?",
+            "Ceritakan tentang nutrisi."
+          ],
+          "responses": [
+            "Nutrisi adalah zat yang diperlukan oleh tubuh untuk pertumbuhan, perbaikan, dan pemeliharaan fungsi vital. Nutrisi diperoleh melalui makanan dan minuman yang kita konsumsi dan mencakup enam kategori utama: karbohidrat, protein, lemak, vitamin, mineral, dan air. Karbohidrat, protein, dan lemak menyediakan energi, sedangkan vitamin dan mineral mendukung berbagai fungsi tubuh seperti memperkuat sistem kekebalan, menjaga kesehatan tulang, dan membantu proses metabolisme."
+          ],
+          "context": [""]
         },
         {
-            "tag": "diet vegetarian",
-            "patterns": [
-                "Apa Itu Diet Vegetarian?",
-                "Diet Vegetarian",
-                "diet vegetarian",
-                "Vegetarian",
-                "vegetarian"
-            ],
-            "responses": [
-                "Vegetarian adalah pola makan yang menghindari konsumsi daging dan ikan, dan lebih mengutamakan makanan dari tumbuhan seperti sayuran, buah-buahan, biji-bijian, kacang-kacangan, dan produk olahan susu serta telur (untuk tipe ovo-lakto vegetarian). Tujuan dari diet ini bisa bervariasi, mulai dari alasan kesehatan, lingkungan, hingga etika. Diet vegetarian sering kali kaya akan serat, vitamin, dan antioksidan, yang dapat membantu dalam menjaga kesehatan jantung, mengontrol berat badan, dan meningkatkan kesehatan secara keseluruhan."
-            ],
-            "context": [
-                ""
-            ]
+          "tag": "vitamin b",
+          "patterns": [
+            "Apa itu Vitamin B?",
+            "Vitamin B itu apa?",
+            "Apa yang dimaksud dengan Vitamin B?",
+            "Bisakah kamu jelaskan tentang Vitamin B?",
+            "Vitamin B",
+            "Beritahu saya tentang Vitamin B",
+            "Ceritakan tentang Vitamin B",
+            "Apa manfaat dari Vitamin B?",
+            "Kenapa Vitamin B penting?"
+          ],
+          "responses": [
+            "Vitamin B adalah kelompok vitamin yang penting untuk metabolisme energi, fungsi saraf, dan produksi sel darah merah. Beberapa jenis vitamin B meliputi B1 (tiamin), B2 (riboflavin), B3 (niasin), B6 (piridoksin), B9 (asam folat), dan B12 (kobalamin)."
+          ],
+          "context": [""]
         },
         {
-            "tag": "diet Paleo",
-            "patterns": [
-                "Apa Itu Diet Paleo?",
-                "Diet Paleo",
-                "diet Paleo",
-                "Paleo",
-                "paleo"
-            ],
-            "responses": [
-                "Diet Paleo, juga dikenal sebagai diet manusia purba atau diet paleolitik, adalah pola makan yang didasarkan pada makanan yang diasumsikan dikonsumsi oleh manusia pada era paleolitikum. Diet ini mencakup daging tanpa lemak, ikan, buah-buahan, sayuran, kacang-kacangan, dan biji-bijian, sambil menghindari makanan olahan, gula, produk susu, dan biji-bijian olahan. Tujuan diet Paleo adalah untuk meningkatkan kesehatan dan kebugaran dengan mengonsumsi makanan alami dan menghindari makanan modern yang dianggap dapat menyebabkan berbagai penyakit."
-            ],
-            "context": [
-                ""
-            ]
+          "tag": "vitamin c",
+          "patterns": [
+            "Apa itu Vitamin C?",
+            "Vitamin C itu apa?",
+            "Apa yang dimaksud dengan Vitamin C?",
+            "Bisakah kamu jelaskan tentang Vitamin C?",
+            "Vitamin C",
+            "Beritahu saya tentang Vitamin C",
+            "Ceritakan tentang Vitamin C",
+            "Apa manfaat dari Vitamin C?",
+            "Kenapa Vitamin C penting?"
+          ],
+          "responses": [
+            "Vitamin C adalah nutrisi penting yang diperlukan oleh tubuh untuk fungsi kekebalan, pertumbuhan jaringan, dan penyerapan zat besi."
+          ],
+          "context": [""]
         },
         {
-            "tag": "vitamin a_manfaat",
-            "patterns": [
-                "Bagaimana vitamin A mempengaruhi kesehatan mata?",
-                "Apa manfaat vitamin A untuk kulit?",
-                "Bagaimana cara mendapatkan vitamin A yang cukup dalam diet saya?"
-            ],
-            "responses": [
-                "Vitamin A membantu menjaga kesehatan mata dengan mempertahankan kesehatan sel-sel mata dan meningkatkan penglihatan di malam hari.",
-                "Vitamin A memiliki manfaat untuk kulit dengan mempertahankan kelembapan dan menjaga kulit tetap sehat dan bercahaya.",
-                "Anda dapat mendapatkan vitamin A yang cukup dengan mengonsumsi makanan seperti wortel, bayam, ubi jalar, hati sapi, dan kuning telur secara teratur."
-            ],
-            "context": []
+          "tag": "protein",
+          "patterns": [
+            "Apa itu protein?",
+            "Protein itu apa?",
+            "Apa yang dimaksud dengan protein?",
+            "Bisakah kamu jelaskan tentang protein?",
+            "Protein",
+            "Beritahu saya tentang protein",
+            "Ceritakan tentang protein",
+            "Apa manfaat dari protein?",
+            "Kenapa protein penting?"
+          ],
+          "responses": [
+            "Protein adalah nutrisi penting yang dibutuhkan oleh tubuh untuk membangun dan memperbaiki jaringan, serta untuk fungsi enzimatik dan hormonal."
+          ],
+          "context": [""]
         },
         {
-            "tag": "protein_manfaat",
-            "patterns": [
-                "Apa manfaat protein untuk otot?",
-                "Bagaimana cara mendapatkan protein yang cukup jika saya vegetarian?",
-                "Berapa banyak protein yang harus saya konsumsi setiap hari?"
-            ],
-            "responses": [
-                "Protein membantu dalam pertumbuhan dan pemulihan otot setelah latihan, sehingga penting untuk mempertahankan massa otot.",
-                "Jika Anda vegetarian, Anda dapat mendapatkan protein dari sumber seperti produk kedelai, kacang-kacangan, biji-bijian, dan sayuran hijau.",
-                "Jumlah protein yang dianjurkan setiap hari bervariasi tergantung pada usia, jenis kelamin, dan tingkat aktivitas, tetapi rata-rata sekitar 46 gram per hari untuk wanita dan 56 gram per hari untuk pria."
-            ],
-            "context": []
+          "tag": "karbohidrat",
+          "patterns": [
+            "Apa itu karbohidrat?",
+            "Karbohidrat itu apa?",
+            "Apa yang dimaksud dengan karbohidrat?",
+            "Bisakah kamu jelaskan tentang karbohidrat?",
+            "Karbohidrat",
+            "Beritahu saya tentang karbohidrat",
+            "Ceritakan tentang karbohidrat",
+            "Apa manfaat dari karbohidrat?",
+            "Kenapa karbohidrat penting?"
+          ],
+          "responses": [
+            "Karbohidrat adalah salah satu jenis nutrisi utama yang diperlukan oleh tubuh untuk energi."
+          ],
+          "context": [""]
         },
         {
-            "tag": "kalsium_manfaat",
-            "patterns": [
-                "Mengapa kalsium penting untuk tulang?",
-                "Apa saja makanan yang mengandung kalsium selain susu?",
-                "Bagaimana cara meningkatkan penyerapan kalsium dalam tubuh?"
-            ],
-            "responses": [
-                "Kalsium penting untuk menjaga kepadatan tulang dan mencegah osteoporosis. Ini membantu dalam pembentukan dan pemeliharaan tulang yang kuat.",
-                "Selain susu, makanan yang mengandung kalsium termasuk sayuran berdaun hijau seperti bayam, ikan teri, kacang-kacangan, dan produk kedelai.",
-                "Penyerapan kalsium dapat ditingkatkan dengan mengonsumsi vitamin D, yang membantu tubuh menyerap kalsium lebih efektif. Anda juga dapat meningkatkan penyerapan kalsium dengan menghindari makanan yang mengandung fosfat yang tinggi."
-            ],
-            "context": []
+          "tag": "lemak",
+          "patterns": [
+            "Apa itu lemak?",
+            "Lemak itu apa?",
+            "Apa yang dimaksud dengan lemak?",
+            "Bisakah kamu jelaskan tentang lemak?",
+            "Lemak",
+            "Beritahu saya tentang lemak",
+            "Ceritakan tentang lemak",
+            "Apa manfaat dari lemak?",
+            "Kenapa lemak penting?"
+          ],
+          "responses": [
+            "Lemak adalah salah satu jenis nutrisi yang penting untuk tubuh, digunakan sebagai sumber energi cadangan dan untuk penyerapan vitamin tertentu. Makanan yang kaya akan lemak termasuk minyak zaitun, alpukat, kacang-kacangan, ikan berlemak (seperti salmon), dan telur."
+          ],
+          "context": [""]
         },
         {
-            "tag": "serat_manfaat",
-            "patterns": [
-                "Apa manfaat serat untuk pencernaan?",
-                "Bagaimana cara meningkatkan asupan serat dalam diet saya?",
-                "Apa dampak negatif dari kurangnya serat dalam diet?"
-            ],
-            "responses": [
-                "Serat membantu menjaga kesehatan pencernaan dengan mencegah sembelit dan menjaga sistem pencernaan tetap sehat.",
-                "Anda dapat meningkatkan asupan serat dengan mengonsumsi lebih banyak sayuran hijau, buah-buahan, kacang-kacangan, biji-bijian, dan gandum utuh.",
-                "Kurangnya serat dalam diet dapat menyebabkan sembelit, peningkatan risiko penyakit jantung, dan masalah pencernaan lainnya."
-            ],
-            "context": []
+          "tag": "serat",
+          "patterns": [
+            "Apa itu serat?",
+            "Serat itu apa?",
+            "Apa yang dimaksud dengan serat?",
+            "Bisakah kamu jelaskan tentang serat?",
+            "Serat",
+            "Beritahu saya tentang serat",
+            "Ceritakan tentang serat",
+            "Apa manfaat dari serat?",
+            "Kenapa serat penting?"
+          ],
+          "responses": [
+            "Serat adalah jenis zat yang ditemukan dalam makanan tumbuhan yang tidak dapat dicerna oleh tubuh manusia. Serat penting untuk menjaga kesehatan pencernaan dan mencegah sembelit."
+          ],
+          "context": [""]
+        },
+        {
+          "tag": "kalsium",
+          "patterns": [
+            "Apa itu kalsium?",
+            "Kalsium itu apa?",
+            "Apa yang dimaksud dengan kalsium?",
+            "Bisakah kamu jelaskan tentang kalsium?",
+            "Kalsium",
+            "Beritahu saya tentang kalsium",
+            "Ceritakan tentang kalsium",
+            "Apa manfaat dari kalsium?",
+            "Kenapa kalsium penting?"
+          ],
+          "responses": [
+            "Kalsium adalah mineral yang penting untuk kesehatan tulang dan gigi. Kalsium juga berperan dalam kontraksi otot, pengaturan tekanan darah, dan fungsi saraf."
+          ],
+          "context": [""]
+        },
+        {
+          "tag": "diet",
+          "patterns": [
+            "Apa itu diet?",
+            "Diet itu apa?",
+            "Apa yang dimaksud dengan diet?",
+            "Bisakah kamu jelaskan tentang diet?",
+            "Diet",
+            "Beritahu saya tentang diet",
+            "Ceritakan tentang diet",
+            "Apa manfaat dari diet?",
+            "Kenapa diet penting?"
+          ],
+          "responses": [
+            "Diet adalah pola makan yang diatur untuk tujuan tertentu, seperti menurunkan berat badan, menjaga kesehatan, atau memenuhi kebutuhan nutrisi tertentu. Diet bisa mencakup pengaturan jenis dan jumlah makanan serta waktu makan. Ada berbagai jenis diet, seperti diet rendah karbohidrat, diet tinggi protein, diet vegetarian, dan diet keto, yang masing-masing memiliki prinsip dan tujuan spesifik."
+          ],
+          "context": [""]
+        },
+        {
+          "tag": "diet keto",
+          "patterns": [
+            "Apa itu Diet Keto?",
+            "Diet Keto itu apa?",
+            "Apa yang dimaksud dengan Diet Keto?",
+            "Bisakah kamu jelaskan tentang Diet Keto?",
+            "Diet Keto",
+            "Beritahu saya tentang Diet Keto",
+            "Ceritakan tentang Diet Keto",
+            "Apa manfaat dari Diet Keto?",
+            "Kenapa Diet Keto penting?"
+          ],
+          "responses": [
+            "Diet keto adalah pola makan yang sangat rendah karbohidrat dan tinggi lemak, dirancang untuk menempatkan tubuh dalam kondisi ketosis. Dalam kondisi ini, tubuh membakar lemak sebagai sumber utama energi, bukan karbohidrat. Diet keto sering kali mencakup konsumsi daging, ikan, telur, produk susu tinggi lemak, minyak, dan sayuran rendah karbohidrat. Tujuan diet keto adalah untuk menurunkan berat badan dan meningkatkan kesehatan metabolik."
+          ],
+          "context": [""]
+        },
+        {
+          "tag": "diet vegetarian",
+          "patterns": [
+            "Apa itu Diet Vegetarian?",
+            "Diet Vegetarian itu apa?",
+            "Apa yang dimaksud dengan Diet Vegetarian?",
+            "Bisakah kamu jelaskan tentang Diet Vegetarian?",
+            "Diet Vegetarian",
+            "Beritahu saya tentang Diet Vegetarian",
+            "Ceritakan tentang Diet Vegetarian",
+            "Apa manfaat dari Diet Vegetarian?",
+            "Kenapa Diet Vegetarian penting?"
+          ],
+          "responses": [
+            "Vegetarian adalah pola makan yang menghindari konsumsi daging dan ikan, dan lebih mengutamakan makanan dari tumbuhan seperti sayuran, buah-buahan, biji-bijian, kacang-kacangan, dan produk olahan susu serta telur (untuk tipe ovo-lakto vegetarian). Tujuan dari diet ini bisa bervariasi, mulai dari alasan kesehatan, lingkungan, hingga etika. Diet vegetarian sering kali kaya akan serat, vitamin, dan antioksidan, yang dapat membantu dalam menjaga kesehatan jantung, mengontrol berat badan, dan meningkatkan kesehatan secara keseluruhan."
+          ],
+          "context": [""]
+        },
+        {
+          "tag": "diet Paleo",
+          "patterns": [
+            "Apa itu Diet Paleo?",
+            "Diet Paleo itu apa?",
+            "Apa yang dimaksud dengan Diet Paleo?",
+            "Bisakah kamu jelaskan tentang Diet Paleo?",
+            "Diet Paleo",
+            "Beritahu saya tentang Diet Paleo",
+            "Ceritakan tentang Diet Paleo",
+            "Apa manfaat dari Diet Paleo?",
+            "Kenapa Diet Paleo penting?"
+          ],
+          "responses": [
+            "Diet Paleo, juga dikenal sebagai diet manusia purba atau diet paleolitik, adalah pola makan yang didasarkan pada makanan yang diasumsikan dikonsumsi oleh manusia pada era paleolitikum. Diet ini mencakup daging tanpa lemak, ikan, buah-buahan, sayuran, kacang-kacangan, dan biji-bijian, sambil menghindari makanan olahan, gula, produk susu, dan biji-bijian olahan. Tujuan diet Paleo adalah untuk meningkatkan kesehatan dan kebugaran dengan mengonsumsi makanan alami dan menghindari makanan modern yang dianggap dapat menyebabkan berbagai penyakit."
+          ],
+          "context": [""]
+        },
+        {
+          "tag": "protein_manfaat",
+          "patterns": [
+            "Apa manfaat protein untuk otot?",
+            "Mengapa protein penting untuk otot?",
+            "Bagaimana protein berperan dalam pembentukan otot?",
+            "Kenapa saya harus konsumsi protein untuk otot?",
+            "Bagaimana cara mendapatkan protein yang cukup jika saya vegetarian?",
+            "Sumber protein apa yang baik untuk vegetarian?",
+            "Bagaimana cara mendapatkan protein bagi vegetarian?",
+            "Apa saja sumber protein bagi vegetarian?",
+            "Berapa banyak protein yang harus saya konsumsi setiap hari?",
+            "Berapa kebutuhan protein harian saya?",
+            "Berapa banyak protein yang diperlukan setiap hari?",
+            "Seberapa banyak protein yang saya butuhkan setiap hari?"
+          ],
+          "responses": [
+            "Protein membantu dalam pertumbuhan dan pemulihan otot setelah latihan, sehingga penting untuk mempertahankan massa otot. Jika Anda vegetarian, Anda dapat mendapatkan protein dari sumber seperti produk kedelai, kacang-kacangan, biji-bijian, dan sayuran hijau. Jumlah protein yang dianjurkan setiap hari bervariasi tergantung pada usia, jenis kelamin, dan tingkat aktivitas, tetapi rata-rata sekitar 46 gram per hari untuk wanita dan 56 gram per hari untuk pria."
+          ],
+          "context": []
         },
         {
             "tag": "makanan_sehat",
@@ -544,264 +555,412 @@
             "context": [""]
         },
         {
-            "tag": "makanan_organik",
-            "patterns": [
-                "Apa itu makanan organik?",
-                "Mengapa makanan organik lebih baik?",
-                "Bagaimana cara mengetahui makanan organik?",
-                "Apa saja manfaat makanan organik?",
-                "Apakah makanan organik lebih sehat?",
-                "Bagaimana cara memilih makanan organik?"
-            ],
-            "responses": [
-                "Makanan organik adalah makanan yang diproduksi tanpa menggunakan pestisida atau bahan kimia sintetis. Makanan organik sering dianggap lebih sehat karena bebas dari bahan kimia berbahaya. Anda bisa mengetahui makanan organik dari label sertifikasi pada kemasannya."
-            ],
-            "context": [""]
+          "tag": "makanan_organik",
+          "patterns": [
+            "Apa itu makanan organik?",
+            "Mengapa makanan organik lebih baik?",
+            "Bagaimana cara mengetahui makanan organik?",
+            "Apa saja manfaat makanan organik?",
+            "Apakah makanan organik lebih sehat?",
+            "Bagaimana cara memilih makanan organik?",
+            "Apa pengertian makanan organik?",
+            "Kenapa makanan organik lebih baik?",
+            "Bagaimana cara mengenali makanan organik?",
+            "Manfaat makanan organik apa saja?",
+            "Makanan organik lebih sehat tidak?",
+            "Cara memilih makanan organik gimana?",
+            "Apa yang dimaksud dengan makanan organik?",
+            "Mengapa makanan organik dianggap lebih baik?",
+            "Bagaimana mengenali makanan organik di pasaran?"
+          ],
+          "responses": [
+            "Makanan organik adalah makanan yang diproduksi tanpa menggunakan pestisida atau bahan kimia sintetis. Makanan organik sering dianggap lebih sehat karena bebas dari bahan kimia berbahaya. Anda bisa mengetahui makanan organik dari label sertifikasi pada kemasannya."
+          ],
+          "context": [""]
         },
         {
-            "tag": "sayuran",
-            "patterns": [
-                "Apa manfaat sayuran bagi kesehatan?",
-                "Sayuran apa yang baik untuk diet?",
-                "Bagaimana cara mengolah sayuran agar tetap sehat?",
-                "Berapa banyak sayuran yang harus dikonsumsi setiap hari?",
-                "Apa sayuran terbaik untuk kesehatan kulit?",
-                "Mengapa penting makan sayuran?",
-                "Bagaimana cara memasak sayuran agar tetap bergizi?"
-            ],
-            "responses": [
-                "Sayuran mengandung banyak vitamin, mineral, dan serat yang baik untuk kesehatan. Sayuran hijau seperti bayam dan brokoli sangat baik untuk diet. Untuk menjaga nutrisinya, sayuran sebaiknya dikukus atau direbus sebentar."
-            ],
-            "context": [""]
+          "tag": "sayuran",
+          "patterns": [
+            "Apa manfaat sayuran bagi kesehatan?",
+            "Sayuran apa yang baik untuk diet?",
+            "Bagaimana cara mengolah sayuran agar tetap sehat?",
+            "Berapa banyak sayuran yang harus dikonsumsi setiap hari?",
+            "Apa sayuran terbaik untuk kesehatan kulit?",
+            "Mengapa penting makan sayuran?",
+            "Bagaimana cara memasak sayuran agar tetap bergizi?",
+            "Manfaat sayuran untuk kesehatan apa?",
+            "Sayuran yang bagus untuk diet apa?",
+            "Cara mengolah sayuran sehat gimana?",
+            "Berapa banyak sayuran yang perlu dimakan setiap hari?",
+            "Sayuran terbaik untuk kesehatan kulit apa?",
+            "Kenapa penting makan sayuran?",
+            "Cara memasak sayuran biar tetap sehat gimana?",
+            "Apa saja manfaat sayuran untuk kesehatan?"
+          ],
+          "responses": [
+            "Sayuran mengandung banyak vitamin, mineral, dan serat yang baik untuk kesehatan. Sayuran hijau seperti bayam dan brokoli sangat baik untuk diet. Untuk menjaga nutrisinya, sayuran sebaiknya dikukus atau direbus sebentar."
+          ],
+          "context": [""]
         },
         {
-            "tag": "buah-buahan",
-            "patterns": [
-                "Apa manfaat buah-buahan bagi kesehatan?",
-                "Buah apa yang baik untuk diet?",
-                "Bagaimana cara memilih buah yang matang?",
-                "Berapa banyak buah yang harus dikonsumsi setiap hari?",
-                "Apa buah terbaik untuk kesehatan kulit?",
-                "Mengapa penting makan buah?",
-                "Bagaimana cara memilih buah yang bagus?"
-            ],
-            "responses": [
-                "Buah-buahan kaya akan vitamin dan antioksidan yang baik untuk kesehatan. Buah-buahan seperti apel, pisang, dan jeruk sangat baik untuk diet. Untuk memilih buah matang, perhatikan tekstur dan aromanya."
-            ],
-            "context": [""]
+          "tag": "buah-buahan",
+          "patterns": [
+            "Apa manfaat buah-buahan bagi kesehatan?",
+            "Buah apa yang baik untuk diet?",
+            "Bagaimana cara memilih buah yang matang?",
+            "Berapa banyak buah yang harus dikonsumsi setiap hari?",
+            "Apa buah terbaik untuk kesehatan kulit?",
+            "Mengapa penting makan buah?",
+            "Bagaimana cara memilih buah yang bagus?",
+            "Manfaat buah untuk kesehatan apa?",
+            "Buah yang bagus untuk diet apa?",
+            "Cara memilih buah matang gimana?",
+            "Berapa banyak buah yang perlu dimakan setiap hari?",
+            "Buah terbaik untuk kesehatan kulit apa?",
+            "Kenapa penting makan buah?",
+            "Cara memilih buah yang baik gimana?",
+            "Apa saja manfaat buah untuk kesehatan?"
+          ],
+          "responses": [
+            "Buah-buahan kaya akan vitamin dan antioksidan yang baik untuk kesehatan. Buah-buahan seperti apel, pisang, dan jeruk sangat baik untuk diet. Untuk memilih buah matang, perhatikan tekstur dan aromanya."
+          ],
+          "context": [""]
         },
         {
-            "tag": "diet_seimbang",
-            "patterns": [
-                "Apa itu diet seimbang?",
-                "Bagaimana cara menjaga diet seimbang?",
-                "Mengapa diet seimbang penting?",
-                "Apa saja komponen diet seimbang?",
-                "Bagaimana cara merencanakan diet seimbang?",
-                "Apa manfaat diet seimbang?",
-                "Bagaimana cara menerapkan diet seimbang dalam kehidupan sehari-hari?"
-            ],
-            "responses": [
-                "Diet seimbang adalah pola makan yang mencakup semua kelompok makanan dalam proporsi yang tepat. Diet seimbang penting untuk menjaga kesehatan dan mencegah penyakit. Komponen diet seimbang meliputi protein, lemak sehat, karbohidrat, serta buah dan sayuran."
-            ],
-            "context": [""]
+          "tag": "diet_seimbang",
+          "patterns": [
+            "Apa itu diet seimbang?",
+            "Bagaimana cara menjaga diet seimbang?",
+            "Mengapa diet seimbang penting?",
+            "Apa saja komponen diet seimbang?",
+            "Bagaimana cara merencanakan diet seimbang?",
+            "Apa manfaat diet seimbang?",
+            "Bagaimana cara menerapkan diet seimbang dalam kehidupan sehari-hari?",
+            "Diet seimbang itu apa?",
+            "Cara menjaga diet seimbang gimana?",
+            "Kenapa diet seimbang penting?",
+            "Komponen diet seimbang apa saja?",
+            "Cara merencanakan diet seimbang gimana?",
+            "Manfaat diet seimbang apa?",
+            "Cara menerapkan diet seimbang sehari-hari gimana?",
+            "Apa pengertian diet seimbang?"
+          ],
+          "responses": [
+            "Diet seimbang adalah pola makan yang mencakup semua kelompok makanan dalam proporsi yang tepat. Diet seimbang penting untuk menjaga kesehatan dan mencegah penyakit. Komponen diet seimbang meliputi protein, lemak sehat, karbohidrat, serta buah dan sayuran."
+          ],
+          "context": [""]
         },
         {
-            "tag": "alergi_makanan",
-            "patterns": [
-                "Apa itu alergi makanan?",
-                "Apa saja gejala alergi makanan?",
-                "Bagaimana cara mengetahui alergi makanan?",
-                "Apa yang harus dilakukan jika mengalami alergi makanan?",
-                "Makanan apa yang sering menyebabkan alergi?",
-                "Bagaimana cara mengatasi alergi makanan?",
-                "Mengapa alergi makanan bisa terjadi?"
-            ],
-            "responses": [
-                "Alergi makanan adalah reaksi berlebihan sistem imun terhadap makanan tertentu. Gejala alergi makanan bisa berupa gatal-gatal, bengkak, atau sesak napas. Tes alergi bisa membantu mengetahui makanan yang menyebabkan alergi."
-            ],
-            "context": [""]
+          "tag": "alergi_makanan",
+          "patterns": [
+            "Apa itu alergi makanan?",
+            "Apa saja gejala alergi makanan?",
+            "Bagaimana cara mengetahui alergi makanan?",
+            "Apa yang harus dilakukan jika mengalami alergi makanan?",
+            "Makanan apa yang sering menyebabkan alergi?",
+            "Bagaimana cara mengatasi alergi makanan?",
+            "Mengapa alergi makanan bisa terjadi?",
+            "Alergi makanan itu apa?",
+            "Gejala alergi makanan apa?",
+            "Cara mengetahui alergi makanan gimana?",
+            "Apa yang harus dilakukan kalau mengalami alergi makanan?",
+            "Makanan apa yang sering menyebabkan alergi?",
+            "Cara mengatasi alergi makanan gimana?",
+            "Kenapa alergi makanan bisa terjadi?",
+            "Apa definisi alergi makanan?"
+          ],
+          "responses": [
+            "Alergi makanan adalah reaksi berlebihan sistem imun terhadap makanan tertentu. Gejala alergi makanan bisa berupa gatal-gatal, bengkak, atau sesak napas. Tes alergi bisa membantu mengetahui makanan yang menyebabkan alergi."
+          ],
+          "context": [""]
         },
         {
-            "tag": "intoleransi_laktosa",
-            "patterns": [
-                "Apa itu intoleransi laktosa?",
-                "Apa saja gejala intoleransi laktosa?",
-                "Bagaimana cara mengelola intoleransi laktosa?",
-                "Apakah ada pengganti susu untuk orang yang intoleransi laktosa?",
-                "Apa yang menyebabkan intoleransi laktosa?",
-                "Bagaimana cara menghindari gejala intoleransi laktosa?",
-                "Apakah intoleransi laktosa bisa sembuh?"
-            ],
-            "responses": [
-                "Intoleransi laktosa adalah ketidakmampuan mencerna laktosa, gula yang ditemukan dalam susu. Gejalanya meliputi kembung, diare, dan sakit perut setelah mengonsumsi produk susu. Susu bebas laktosa atau susu nabati bisa menjadi alternatif bagi penderita intoleransi laktosa."
-            ],
-            "context": [""]
+          "tag": "intoleransi_laktosa",
+          "patterns": [
+            "Apa itu intoleransi laktosa?",
+            "Apa saja gejala intoleransi laktosa?",
+            "Bagaimana cara mengelola intoleransi laktosa?",
+            "Apakah ada pengganti susu untuk orang yang intoleransi laktosa?",
+            "Apa yang menyebabkan intoleransi laktosa?",
+            "Bagaimana cara menghindari gejala intoleransi laktosa?",
+            "Apakah intoleransi laktosa bisa sembuh?",
+            "Intoleransi laktosa itu apa?",
+            "Gejala intoleransi laktosa apa?",
+            "Cara mengelola intoleransi laktosa gimana?",
+            "Apakah ada pengganti susu untuk intoleransi laktosa?",
+            "Kenapa bisa terjadi intoleransi laktosa?",
+            "Cara menghindari gejala intoleransi laktosa gimana?",
+            "Intoleransi laktosa bisa sembuh tidak?",
+            "Apa pengertian intoleransi laktosa?"
+          ],
+          "responses": [
+            "Intoleransi laktosa adalah ketidakmampuan mencerna laktosa, gula yang ditemukan dalam susu. Gejalanya meliputi kembung, diare, dan sakit perut setelah mengonsumsi produk susu. Susu bebas laktosa atau susu nabati bisa menjadi alternatif bagi penderita intoleransi laktosa."
+          ],
+          "context": [""]
         },
         {
-            "tag": "pemanis_buatan",
-            "patterns": [
-                "Apa itu pemanis buatan?",
-                "Apakah pemanis buatan aman untuk dikonsumsi?",
-                "Apa saja jenis pemanis buatan?",
-                "Apa efek samping dari pemanis buatan?",
-                "Mengapa orang menggunakan pemanis buatan?",
-                "Apa manfaat menggunakan pemanis buatan?"
-            ],
-            "responses": [
-                "Pemanis buatan adalah zat yang digunakan untuk memberikan rasa manis tanpa kalori. Keamanan pemanis buatan masih diperdebatkan, tetapi umumnya dianggap aman dalam jumlah terbatas. Contoh pemanis buatan termasuk aspartam, sakarin, dan sucralose."
-            ],
-            "context": [""]
+          "tag": "pemanis_buatan",
+          "patterns": [
+            "Apa itu pemanis buatan?",
+            "Apakah pemanis buatan aman untuk dikonsumsi?",
+            "Apa saja jenis pemanis buatan?",
+            "Apa efek samping dari pemanis buatan?",
+            "Mengapa orang menggunakan pemanis buatan?",
+            "Apa manfaat menggunakan pemanis buatan?",
+            "Pemanis buatan itu apa?",
+            "Apakah pemanis buatan aman dikonsumsi?",
+            "Jenis pemanis buatan apa saja?",
+            "Efek samping pemanis buatan apa?",
+            "Kenapa orang pakai pemanis buatan?",
+            "Manfaat pakai pemanis buatan apa?",
+            "Apa yang dimaksud dengan pemanis buatan?",
+            "Apakah aman mengonsumsi pemanis buatan?",
+            "Apa saja macam pemanis buatan?"
+          ],
+          "responses": [
+            "Pemanis buatan adalah zat yang digunakan untuk memberikan rasa manis tanpa kalori. Keamanan pemanis buatan masih diperdebatkan, tetapi umumnya dianggap aman dalam jumlah terbatas. Contoh pemanis buatan termasuk aspartam, sakarin, dan sucralose."
+          ],
+          "context": [""]
         },
         {
-            "tag": "makanan_fermentasi",
-            "patterns": [
-                "Apa itu makanan fermentasi?",
-                "Apa saja contoh makanan fermentasi?",
-                "Apa manfaat makanan fermentasi?",
-                "Bagaimana cara membuat makanan fermentasi?",
-                "Apakah makanan fermentasi baik untuk pencernaan?",
-                "Bagaimana cara mengkonsumsi makanan fermentasi dengan benar?"
-            ],
-            "responses": [
-                "Makanan fermentasi adalah makanan yang diolah dengan bantuan mikroorganisme. Contoh makanan fermentasi antara lain yogurt, kimchi, dan tempe. Makanan fermentasi baik untuk kesehatan pencernaan karena mengandung probiotik."
-            ],
-            "context": [""]
+          "tag": "makanan_fermentasi",
+          "patterns": [
+            "Apa itu makanan fermentasi?",
+            "Apa saja contoh makanan fermentasi?",
+            "Apa manfaat makanan fermentasi?",
+            "Bagaimana cara membuat makanan fermentasi?",
+            "Apakah makanan fermentasi baik untuk pencernaan?",
+            "Bagaimana cara mengkonsumsi makanan fermentasi dengan benar?",
+            "Makanan fermentasi itu apa?",
+            "Contoh makanan fermentasi apa?",
+            "Manfaat makanan fermentasi apa?",
+            "Cara membuat makanan fermentasi gimana?",
+            "Apakah makanan fermentasi bagus untuk pencernaan?",
+            "Cara konsumsi makanan fermentasi yang benar gimana?",
+            "Apa yang dimaksud dengan makanan fermentasi?",
+            "Apa saja jenis makanan fermentasi?",
+            "Apa saja kegunaan makanan fermentasi?"
+          ],
+          "responses": [
+            "Makanan fermentasi adalah makanan yang diolah dengan bantuan mikroorganisme. Contoh makanan fermentasi antara lain yogurt, kimchi, dan tempe. Makanan fermentasi baik untuk kesehatan pencernaan karena mengandung probiotik."
+          ],
+          "context": [""]
         },
         {
-            "tag": "kafein",
-            "patterns": [
-                "Apa efek kafein pada tubuh?",
-                "Berapa batas aman konsumsi kafein per hari?",
-                "Apa saja sumber kafein selain kopi?",
-                "Apakah kafein bisa menyebabkan ketergantungan?",
-                "Bagaimana cara mengurangi konsumsi kafein?",
-                "Apakah kafein memiliki manfaat kesehatan?"
-            ],
-            "responses": [
-                "Kafein adalah stimulan yang bisa meningkatkan energi dan kewaspadaan. Batas aman konsumsi kafein adalah sekitar 400 mg per hari untuk orang dewasa. Selain kopi, kafein juga terdapat dalam teh, minuman energi, dan cokelat."
-            ],
-            "context": [""]
+          "tag": "kafein",
+          "patterns": [
+            "Apa efek kafein pada tubuh?",
+            "Berapa batas aman konsumsi kafein per hari?",
+            "Apa saja sumber kafein selain kopi?",
+            "Apakah kafein bisa menyebabkan ketergantungan?",
+            "Bagaimana cara mengurangi konsumsi kafein?",
+            "Apakah kafein memiliki manfaat kesehatan?",
+            "Efek kafein pada tubuh apa?",
+            "Berapa batas aman konsumsi kafein?",
+            "Sumber kafein selain kopi apa?",
+            "Apakah kafein bisa bikin ketergantungan?",
+            "Cara mengurangi konsumsi kafein gimana?",
+            "Apakah kafein ada manfaat kesehatan?",
+            "Apa dampak kafein pada tubuh?",
+            "Berapa konsumsi kafein yang aman per hari?",
+            "Apa sumber kafein selain dari kopi?"
+          ],
+          "responses": [
+            "Kafein adalah stimulan yang bisa meningkatkan energi dan kewaspadaan. Batas aman konsumsi kafein adalah sekitar 400 mg per hari untuk orang dewasa. Selain kopi, kafein juga terdapat dalam teh, minuman energi, dan cokelat."
+          ],
+          "context": [""]
         },
         {
-            "tag": "gluten",
-            "patterns": [
-                "Apa itu gluten?",
-                "Apa saja gejala intoleransi gluten?",
-                "Bagaimana cara menghindari gluten dalam makanan?",
-                "Makanan apa yang bebas gluten?",
-                "Apakah diet bebas gluten sehat untuk semua orang?",
-                "Mengapa orang menghindari gluten?"
-            ],
-            "responses": [
-                "Gluten adalah protein yang ditemukan dalam gandum, barley, dan rye. Gejala intoleransi gluten bisa berupa sakit perut, diare, dan kembung. Untuk menghindari gluten, pilih makanan yang berlabel bebas gluten."
-            ],
-            "context": [""]
+          "tag": "gluten",
+          "patterns": [
+            "Apa itu gluten?",
+            "Apa saja gejala intoleransi gluten?",
+            "Bagaimana cara menghindari gluten dalam makanan?",
+            "Makanan apa yang bebas gluten?",
+            "Apakah diet bebas gluten sehat untuk semua orang?",
+            "Mengapa orang menghindari gluten?",
+            "Gluten itu apa?",
+            "Gejala intoleransi gluten apa?",
+            "Cara menghindari gluten dalam makanan gimana?",
+            "Makanan yang bebas gluten apa?",
+            "Diet bebas gluten sehat tidak untuk semua orang?",
+            "Kenapa orang menghindari gluten?",
+            "Apa itu gluten?",
+            "Apa saja gejala tidak toleran gluten?",
+            "Bagaimana cara menghindari gluten?"
+          ],
+          "responses": [
+            "Gluten adalah protein yang ditemukan dalam gandum, barley, dan rye. Gejala intoleransi gluten bisa berupa sakit perut, diare, dan kembung. Untuk menghindari gluten, pilih makanan yang berlabel bebas gluten."
+          ],
+          "context": [""]
         },
         {
-            "tag": "gizi_balita",
-            "patterns": [
-                "Bagaimana memenuhi kebutuhan gizi balita?",
-                "Apa saja makanan sehat untuk balita?",
-                "Berapa banyak kalori yang dibutuhkan balita setiap hari?",
-                "Bagaimana cara memperkenalkan makanan baru kepada balita?",
-                "Apa tanda balita kekurangan gizi?",
-                "Bagaimana cara memastikan balita mendapatkan nutrisi yang cukup?"
-            ],
-            "responses": [
-                "Kebutuhan gizi balita dapat dipenuhi dengan memberikan makanan seimbang yang mencakup semua kelompok makanan. Makanan sehat untuk balita meliputi buah-buahan, sayuran, protein, dan biji-bijian. Kalori yang dibutuhkan balita bervariasi tergantung pada usia, berat badan, dan tingkat aktivitas."
-            ],
-            "context": [""]
+          "tag": "gizi_balita",
+          "patterns": [
+            "Bagaimana memenuhi kebutuhan gizi balita?",
+            "Apa saja makanan sehat untuk balita?",
+            "Berapa banyak kalori yang dibutuhkan balita setiap hari?",
+            "Bagaimana cara memperkenalkan makanan baru kepada balita?",
+            "Apa tanda balita kekurangan gizi?",
+            "Bagaimana cara memastikan balita mendapatkan nutrisi yang cukup?",
+            "Cara memenuhi kebutuhan gizi balita gimana?",
+            "Makanan sehat untuk balita apa?",
+            "Berapa kalori yang dibutuhkan balita tiap hari?",
+            "Cara memperkenalkan makanan baru ke balita gimana?",
+            "Tanda balita kekurangan gizi apa?",
+            "Cara memastikan balita cukup nutrisi gimana?",
+            "Gizi balita bagaimana memenuhinya?",
+            "Makanan apa yang sehat untuk balita?",
+            "Bagaimana cara mengetahui kebutuhan kalori balita?"
+          ],
+          "responses": [
+            "Kebutuhan gizi balita dapat dipenuhi dengan memberikan makanan seimbang yang mencakup semua kelompok makanan. Makanan sehat untuk balita meliputi buah-buahan, sayuran, protein, dan biji-bijian. Kalori yang dibutuhkan balita bervariasi tergantung pada usia, berat badan, dan tingkat aktivitas."
+          ],
+          "context": [""]
         },
         {
-            "tag": "vegetarian",
-            "patterns": [
-                "Apa itu vegetarian?",
-                "Apa saja jenis-jenis vegetarian?",
-                "Bagaimana cara menjadi vegetarian yang sehat?",
-                "Apa manfaat diet vegetarian?",
-                "Apa saja makanan pengganti daging bagi vegetarian?",
-                "Mengapa orang memilih menjadi vegetarian?"
-            ],
-            "responses": [
-                "Vegetarian adalah seseorang yang tidak mengonsumsi daging. Jenis-jenis vegetarian meliputi lacto-vegetarian, ovo-vegetarian, dan vegan. Untuk menjadi vegetarian yang sehat, pastikan mengonsumsi berbagai macam makanan untuk mendapatkan semua nutrisi yang dibutuhkan."
-            ],
-            "context": [""]
+          "tag": "vegetarian",
+          "patterns": [
+            "Apa itu vegetarian?",
+            "Apa saja jenis-jenis vegetarian?",
+            "Bagaimana cara menjadi vegetarian yang sehat?",
+            "Apa manfaat diet vegetarian?",
+            "Apa saja makanan pengganti daging bagi vegetarian?",
+            "Mengapa orang memilih menjadi vegetarian?",
+            "Vegetarian itu apa?",
+            "Jenis-jenis vegetarian apa saja?",
+            "Cara menjadi vegetarian yang sehat gimana?",
+            "Manfaat diet vegetarian apa?",
+            "Makanan pengganti daging bagi vegetarian apa?",
+            "Kenapa orang memilih jadi vegetarian?",
+            "Apa yang dimaksud dengan vegetarian?",
+            "Apa saja tipe-tipe vegetarian?",
+            "Bagaimana menjaga kesehatan sebagai vegetarian?"
+          ],
+          "responses": [
+            "Vegetarian adalah seseorang yang tidak mengonsumsi daging. Jenis-jenis vegetarian meliputi lacto-vegetarian, ovo-vegetarian, dan vegan. Untuk menjadi vegetarian yang sehat, pastikan mengonsumsi berbagai macam makanan untuk mendapatkan semua nutrisi yang dibutuhkan."
+          ],
+          "context": [""]
         },
         {
-            "tag": "vegan",
-            "patterns": [
-                "Apa itu vegan?",
-                "Bagaimana cara menjadi vegan yang sehat?",
-                "Apa manfaat diet vegan?",
-                "Apa saja tantangan menjadi vegan?",
-                "Apa saja makanan pengganti produk hewani bagi vegan?",
-                "Mengapa orang memilih menjadi vegan?"
-            ],
-            "responses": [
-                "Vegan adalah seseorang yang tidak mengonsumsi produk hewani sama sekali. Manfaat diet vegan termasuk penurunan risiko penyakit jantung dan kanker. Tantangan menjadi vegan termasuk memastikan asupan nutrisi yang cukup, seperti vitamin B12 dan zat besi."
-            ],
-            "context": [""]
+          "tag": "vegan",
+          "patterns": [
+            "Apa itu vegan?",
+            "Bagaimana cara menjadi vegan yang sehat?",
+            "Apa manfaat diet vegan?",
+            "Apa saja tantangan menjadi vegan?",
+            "Apa saja makanan pengganti produk hewani bagi vegan?",
+            "Mengapa orang memilih menjadi vegan?",
+            "Vegan itu apa?",
+            "Cara menjadi vegan yang sehat gimana?",
+            "Manfaat diet vegan apa?",
+            "Tantangan jadi vegan apa?",
+            "Makanan pengganti produk hewani bagi vegan apa?",
+            "Kenapa orang memilih jadi vegan?",
+            "Apa yang dimaksud dengan vegan?",
+            "Bagaimana menjadi vegan yang sehat?",
+            "Apa keuntungan dari diet vegan?"
+          ],
+          "responses": [
+            "Vegan adalah seseorang yang tidak mengonsumsi produk hewani sama sekali. Manfaat diet vegan termasuk penurunan risiko penyakit jantung dan kanker. Tantangan menjadi vegan termasuk memastikan asupan nutrisi yang cukup, seperti vitamin B12 dan zat besi."
+          ],
+          "context": [""]
         },
         {
-            "tag": "superfood",
-            "patterns": [
-                "Apa itu superfood?",
-                "Apa saja contoh superfood?",
-                "Apa manfaat superfood?",
-                "Bagaimana cara mengonsumsi superfood?",
-                "Apakah superfood benar-benar lebih baik?",
-                "Mengapa superfood dianggap istimewa?"
-            ],
-            "responses": [
-                "Superfood adalah makanan yang sangat kaya nutrisi dan memiliki banyak manfaat kesehatan. Contoh superfood termasuk blueberry, kale, quinoa, dan chia seed. Manfaat superfood termasuk meningkatkan energi, meningkatkan kesehatan jantung, dan mendukung sistem kekebalan tubuh."
-            ],
-            "context": [""]
+          "tag": "superfood",
+          "patterns": [
+            "Apa itu superfood?",
+            "Apa saja contoh superfood?",
+            "Apa manfaat superfood?",
+            "Bagaimana cara mengonsumsi superfood?",
+            "Apakah superfood benar-benar lebih baik?",
+            "Mengapa superfood dianggap istimewa?",
+            "Superfood itu apa?",
+            "Contoh superfood apa saja?",
+            "Manfaat superfood apa?",
+            "Cara mengonsumsi superfood gimana?",
+            "Superfood lebih baik tidak?",
+            "Kenapa superfood dianggap spesial?",
+            "Apa yang dimaksud dengan superfood?",
+            "Apa saja makanan yang disebut superfood?",
+            "Apa kelebihan dari superfood?"
+          ],
+          "responses": [
+            "Superfood adalah makanan yang sangat kaya nutrisi dan memiliki banyak manfaat kesehatan. Contoh superfood termasuk blueberry, kale, quinoa, dan chia seed. Manfaat superfood termasuk meningkatkan energi, meningkatkan kesehatan jantung, dan mendukung sistem kekebalan tubuh."
+          ],
+          "context": [""]
         },
         {
-            "tag": "minuman_sehat",
-            "patterns": [
-                "Apa saja minuman sehat yang bisa dikonsumsi setiap hari?",
-                "Bagaimana cara membuat minuman sehat di rumah?",
-                "Apa manfaat minuman sehat?",
-                "Minuman apa yang baik untuk detoksifikasi tubuh?",
-                "Apa minuman terbaik untuk meningkatkan energi?",
-                "Mengapa penting mengonsumsi minuman sehat?"
-            ],
-            "responses": [
-                "Minuman sehat termasuk air putih, jus buah tanpa gula, dan teh herbal. Manfaat minuman sehat termasuk hidrasi, detoksifikasi, dan peningkatan energi. Teh hijau dan air lemon adalah contoh minuman yang baik untuk detoksifikasi tubuh."
-            ],
-            "context": [""]
+          "tag": "minuman_sehat",
+          "patterns": [
+            "Apa saja minuman sehat yang bisa dikonsumsi setiap hari?",
+            "Bagaimana cara membuat minuman sehat di rumah?",
+            "Apa manfaat minuman sehat?",
+            "Minuman apa yang baik untuk detoksifikasi tubuh?",
+            "Apa minuman terbaik untuk meningkatkan energi?",
+            "Mengapa penting mengonsumsi minuman sehat?",
+            "Minuman sehat apa yang bisa diminum setiap hari?",
+            "Cara membuat minuman sehat di rumah gimana?",
+            "Manfaat minuman sehat apa?",
+            "Minuman yang bagus untuk detoks tubuh apa?",
+            "Minuman terbaik untuk meningkatkan energi apa?",
+            "Kenapa penting minum minuman sehat?",
+            "Apa minuman sehat yang bisa diminum setiap hari?",
+            "Bagaimana membuat minuman sehat di rumah?",
+            "Apa manfaat dari minuman sehat?"
+          ],
+          "responses": [
+            "Minuman sehat termasuk air putih, jus buah tanpa gula, dan teh herbal. Manfaat minuman sehat termasuk hidrasi, detoksifikasi, dan peningkatan energi. Teh hijau dan air lemon adalah contoh minuman yang baik untuk detoksifikasi tubuh."
+          ],
+          "context": [""]
         },
         {
-            "tag": "pengawet_makanan",
-            "patterns": [
-                "Apa itu pengawet makanan?",
-                "Apakah pengawet makanan aman dikonsumsi?",
-                "Apa saja jenis pengawet makanan?",
-                "Bagaimana cara menghindari makanan dengan pengawet?",
-                "Apa efek samping pengawet makanan?",
-                "Mengapa pengawet makanan digunakan?"
-            ],
-            "responses": [
-                "Pengawet makanan adalah zat yang ditambahkan untuk mencegah kerusakan dan memperpanjang umur simpan makanan. Beberapa pengawet makanan aman dikonsumsi, namun ada juga yang dapat menyebabkan efek samping jika dikonsumsi berlebihan. Jenis-jenis pengawet makanan meliputi pengawet alami seperti garam dan gula, serta pengawet sintetis seperti benzoat dan nitrat."
-            ],
-            "context": [""]
+          "tag": "pengawet_makanan",
+          "patterns": [
+            "Apa itu pengawet makanan?",
+            "Apakah pengawet makanan aman dikonsumsi?",
+            "Apa saja jenis pengawet makanan?",
+            "Bagaimana cara menghindari makanan dengan pengawet?",
+            "Apa efek samping pengawet makanan?",
+            "Mengapa pengawet makanan digunakan?",
+            "Pengawet makanan itu apa?",
+            "Apakah pengawet makanan aman untuk dikonsumsi?",
+            "Jenis pengawet makanan apa saja?",
+            "Cara menghindari makanan dengan pengawet gimana?",
+            "Efek samping pengawet makanan apa?",
+            "Kenapa pengawet makanan digunakan?",
+            "Apa yang dimaksud dengan pengawet makanan?",
+            "Apakah pengawet makanan berbahaya?",
+            "Apa saja macam-macam pengawet makanan?"
+          ],
+          "responses": [
+            "Pengawet makanan adalah zat yang ditambahkan untuk mencegah kerusakan dan memperpanjang umur simpan makanan. Beberapa pengawet makanan aman dikonsumsi, namun ada juga yang dapat menyebabkan efek samping jika dikonsumsi berlebihan. Jenis-jenis pengawet makanan meliputi pengawet alami seperti garam dan gula, serta pengawet sintetis seperti benzoat dan nitrat."
+          ],
+          "context": [""]
         },
         {
-            "tag": "hidratasi",
-            "patterns": [
-                "Mengapa hidrasi penting?",
-                "Berapa banyak air yang harus diminum setiap hari?",
-                "Apa tanda-tanda dehidrasi?",
-                "Bagaimana cara menjaga hidrasi yang baik?",
-                "Apa saja sumber cairan selain air putih?",
-                "Apa manfaat hidrasi yang baik untuk tubuh?"
-            ],
-            "responses": [
-                "Hidrasi penting untuk menjaga fungsi tubuh dan kesehatan secara keseluruhan. Kebanyakan orang disarankan untuk minum sekitar 8 gelas air per hari, tetapi kebutuhan bisa bervariasi. Tanda-tanda dehidrasi termasuk rasa haus, mulut kering, dan urine berwarna gelap."
-            ],
-            "context": [""]
+          "tag": "hidratasi",
+          "patterns": [
+            "Mengapa hidrasi penting?",
+            "Berapa banyak air yang harus diminum setiap hari?",
+            "Apa tanda-tanda dehidrasi?",
+            "Bagaimana cara menjaga hidrasi yang baik?",
+            "Apa saja sumber cairan selain air putih?",
+            "Apa manfaat hidrasi yang baik untuk tubuh?",
+            "Kenapa hidrasi penting?",
+            "Berapa banyak air yang harus diminum per hari?",
+            "Tanda-tanda dehidrasi apa?",
+            "Cara menjaga hidrasi yang baik gimana?",
+            "Sumber cairan selain air putih apa?",
+            "Manfaat hidrasi yang baik untuk tubuh apa?",
+            "Mengapa penting untuk tetap terhidrasi?",
+            "Berapa jumlah air yang disarankan untuk diminum tiap hari?",
+            "Apa saja tanda jika tubuh kekurangan cairan?"
+          ],
+          "responses": [
+            "Hidrasi penting untuk menjaga fungsi tubuh dan kesehatan secara keseluruhan. Kebanyakan orang disarankan untuk minum sekitar 8 gelas air per hari, tetapi kebutuhan bisa bervariasi. Tanda-tanda dehidrasi termasuk rasa haus, mulut kering, dan urine berwarna gelap."
+          ],
+          "context": [""]
         },
         {
           "tag": "metabolisme",
@@ -811,7 +970,25 @@
             "Apa faktor yang mempengaruhi metabolisme?",
             "Mengapa metabolisme penting untuk kesehatan?",
             "Apa makanan yang bisa meningkatkan metabolisme?",
-            "Bagaimana cara kerja metabolisme dalam tubuh?"
+            "Bagaimana cara kerja metabolisme dalam tubuh?",
+            "Metabolisme itu apa?",
+            "Cara meningkatkan metabolisme gimana?",
+            "Faktor apa saja yang mempengaruhi metabolisme?",
+            "Kenapa metabolisme penting?",
+            "Makanan apa yang bisa meningkatkan metabolisme?",
+            "Gimana cara kerja metabolisme?",
+            "Apa yang dimaksud dengan metabolisme?",
+            "Bagaimana cara mempercepat metabolisme?",
+            "Apa saja yang mempengaruhi metabolisme?",
+            "Kenapa kita perlu memperhatikan metabolisme?",
+            "Makanan apa yang membantu meningkatkan metabolisme?",
+            "Bagaimana proses metabolisme terjadi dalam tubuh?",
+            "Apa definisi metabolisme?",
+            "Bagaimana cara alami meningkatkan metabolisme?",
+            "Faktor apa yang dapat memperlambat metabolisme?",
+            "Mengapa menjaga metabolisme itu penting?",
+            "Makanan apa yang efektif meningkatkan metabolisme?",
+            "Metabolisme dalam tubuh bekerja seperti apa?"
           ],
           "responses": [
             "Metabolisme adalah proses di mana tubuh mengubah makanan menjadi energi. Cara meningkatkan metabolisme termasuk olahraga, makan protein, dan tidur yang cukup. Faktor yang mempengaruhi metabolisme meliputi usia, jenis kelamin, dan genetik."
@@ -821,88 +998,160 @@
           ]
         },
         {
-            "tag": "snack_sehat",
-            "patterns": [
-                "Apa saja snack sehat yang bisa dikonsumsi setiap hari?",
-                "Bagaimana cara membuat snack sehat di rumah?",
-                "Apa manfaat snack sehat?",
-                "Snack apa yang baik untuk diet?",
-                "Apa snack sehat yang baik untuk anak-anak?"
-            ],
-            "responses": [
-                "Snack sehat termasuk buah segar, kacang-kacangan, dan yogurt tanpa gula. Snack sehat bisa membantu menjaga energi dan mencegah makan berlebihan. Untuk anak-anak, snack sehat seperti potongan buah dan sayur sangat baik."
-            ],
-            "context": [""]
+          "tag": "snack_sehat",
+          "patterns": [
+            "Apa saja snack sehat yang bisa dikonsumsi setiap hari?",
+            "Bagaimana cara membuat snack sehat di rumah?",
+            "Apa manfaat snack sehat?",
+            "Snack apa yang baik untuk diet?",
+            "Apa snack sehat yang baik untuk anak-anak?",
+            "Snack sehat apa yang bisa dimakan sehari-hari?",
+            "Bagaimana membuat snack sehat di rumah?",
+            "Manfaat snack sehat apa saja?",
+            "Snack diet yang sehat apa?",
+            "Snack sehat apa yang bagus untuk anak-anak?",
+            "Apa contoh snack sehat untuk sehari-hari?",
+            "Cara membuat snack sehat gimana?",
+            "Kenapa penting makan snack sehat?",
+            "Apa snack sehat untuk orang diet?",
+            "Apa saja snack sehat yang cocok untuk anak-anak?"
+          ],
+          "responses": [
+            "Snack sehat termasuk buah segar, kacang-kacangan, dan yogurt tanpa gula. Snack sehat bisa membantu menjaga energi dan mencegah makan berlebihan. Untuk anak-anak, snack sehat seperti potongan buah dan sayur sangat baik."
+          ],
+          "context": [
+            ""
+          ]
         },
         {
-            "tag": "makanan_cepat_saji",
-            "patterns": [
-                "Apa efek makanan cepat saji pada kesehatan?",
-                "Mengapa makanan cepat saji dianggap tidak sehat?",
-                "Bagaimana cara mengurangi konsumsi makanan cepat saji?",
-                "Apa alternatif sehat untuk makanan cepat saji?",
-                "Apa bahaya jangka panjang dari makanan cepat saji?"
-            ],
-            "responses": [
-                "Makanan cepat saji sering mengandung banyak lemak, garam, dan kalori yang dapat berdampak negatif pada kesehatan. Mengurangi konsumsi makanan cepat saji bisa dilakukan dengan memasak sendiri di rumah dan memilih makanan yang lebih sehat. Alternatif sehat termasuk salad, sandwich dengan roti gandum, dan makanan panggang."
-            ],
-            "context": [""]
+          "tag": "makanan_cepat_saji",
+          "patterns": [
+            "Apa efek makanan cepat saji pada kesehatan?",
+            "Mengapa makanan cepat saji dianggap tidak sehat?",
+            "Bagaimana cara mengurangi konsumsi makanan cepat saji?",
+            "Apa alternatif sehat untuk makanan cepat saji?",
+            "Apa bahaya jangka panjang dari makanan cepat saji?",
+            "Efek makanan cepat saji bagi kesehatan apa?",
+            "Kenapa makanan cepat saji tidak sehat?",
+            "Cara mengurangi makan cepat saji gimana?",
+            "Alternatif sehat untuk makanan cepat saji apa?",
+            "Bahaya jangka panjang makanan cepat saji apa saja?",
+            "Apa dampak negatif dari makanan cepat saji?",
+            "Mengapa makanan cepat saji buruk untuk kesehatan?",
+            "Bagaimana mengurangi makan makanan cepat saji?",
+            "Alternatif yang lebih sehat untuk makanan cepat saji apa?",
+            "Apa risiko kesehatan dari makanan cepat saji?"
+          ],
+          "responses": [
+            "Makanan cepat saji sering mengandung banyak lemak, garam, dan kalori yang dapat berdampak negatif pada kesehatan. Mengurangi konsumsi makanan cepat saji bisa dilakukan dengan memasak sendiri di rumah dan memilih makanan yang lebih sehat. Alternatif sehat termasuk salad, sandwich dengan roti gandum, dan makanan panggang."
+          ],
+          "context": [
+            ""
+          ]
         },
         {
-            "tag": "kolesterol",
-            "patterns": [
-                "Apa itu kolesterol?",
-                "Apa saja makanan yang bisa menurunkan kolesterol?",
-                "Bagaimana cara menjaga kadar kolesterol yang sehat?",
-                "Apa perbedaan antara kolesterol baik dan kolesterol jahat?",
-                "Apa saja gejala kolesterol tinggi?"
-            ],
-            "responses": [
-                "Kolesterol adalah zat lemak yang ditemukan dalam darah, dibutuhkan untuk membangun sel-sel yang sehat. Makanan yang bisa menurunkan kolesterol termasuk oatmeal, kacang-kacangan, dan ikan berlemak. Kolesterol baik (HDL) membantu menghilangkan kolesterol jahat (LDL) dari arteri."
-            ],
-            "context": [""]
+          "tag": "kolesterol",
+          "patterns": [
+            "Apa itu kolesterol?",
+            "Apa saja makanan yang bisa menurunkan kolesterol?",
+            "Bagaimana cara menjaga kadar kolesterol yang sehat?",
+            "Apa perbedaan antara kolesterol baik dan kolesterol jahat?",
+            "Apa saja gejala kolesterol tinggi?",
+            "Kolesterol itu apa?",
+            "Makanan apa yang bisa menurunkan kolesterol?",
+            "Cara menjaga kolesterol sehat gimana?",
+            "Apa beda kolesterol baik dan jahat?",
+            "Gejala kolesterol tinggi apa saja?",
+            "Apa definisi kolesterol?",
+            "Makanan yang menurunkan kolesterol apa?",
+            "Bagaimana cara menjaga kolesterol agar tetap sehat?",
+            "Apa yang membedakan kolesterol baik dan buruk?",
+            "Apa tanda-tanda kolesterol tinggi?"
+          ],
+          "responses": [
+            "Kolesterol adalah zat lemak yang ditemukan dalam darah, dibutuhkan untuk membangun sel-sel yang sehat. Makanan yang bisa menurunkan kolesterol termasuk oatmeal, kacang-kacangan, dan ikan berlemak. Kolesterol baik (HDL) membantu menghilangkan kolesterol jahat (LDL) dari arteri."
+          ],
+          "context": [
+            ""
+          ]
         },
         {
-            "tag": "kesehatan_jantung",
-            "patterns": [
-                "Bagaimana cara menjaga kesehatan jantung?",
-                "Apa saja makanan yang baik untuk jantung?",
-                "Mengapa kesehatan jantung penting?",
-                "Apa saja faktor risiko penyakit jantung?",
-                "Bagaimana olahraga mempengaruhi kesehatan jantung?"
-            ],
-            "responses": [
-                "Menjaga kesehatan jantung bisa dilakukan dengan makan makanan sehat, olahraga, dan tidak merokok. Makanan yang baik untuk jantung termasuk buah-buahan, sayuran, biji-bijian, dan ikan berlemak. Kesehatan jantung penting karena jantung adalah organ vital yang memompa darah ke seluruh tubuh."
-            ],
-            "context": [""]
+          "tag": "kesehatan_jantung",
+          "patterns": [
+            "Bagaimana cara menjaga kesehatan jantung?",
+            "Apa saja makanan yang baik untuk jantung?",
+            "Mengapa kesehatan jantung penting?",
+            "Apa saja faktor risiko penyakit jantung?",
+            "Bagaimana olahraga mempengaruhi kesehatan jantung?",
+            "Cara menjaga kesehatan jantung gimana?",
+            "Makanan apa yang baik untuk jantung?",
+            "Kenapa kesehatan jantung penting?",
+            "Faktor risiko penyakit jantung apa saja?",
+            "Olahraga bagaimana yang baik untuk kesehatan jantung?",
+            "Bagaimana cara merawat kesehatan jantung?",
+            "Apa makanan yang bagus untuk kesehatan jantung?",
+            "Mengapa penting menjaga kesehatan jantung?",
+            "Apa faktor risiko yang menyebabkan penyakit jantung?",
+            "Apa manfaat olahraga untuk kesehatan jantung?"
+          ],
+          "responses": [
+            "Menjaga kesehatan jantung bisa dilakukan dengan makan makanan sehat, olahraga, dan tidak merokok. Makanan yang baik untuk jantung termasuk buah-buahan, sayuran, biji-bijian, dan ikan berlemak. Kesehatan jantung penting karena jantung adalah organ vital yang memompa darah ke seluruh tubuh."
+          ],
+          "context": [
+            ""
+          ]
         },
         {
-            "tag": "sistem_imun",
-            "patterns": [
-                "Apa itu sistem imun?",
-                "Bagaimana cara memperkuat sistem imun?",
-                "Apa saja makanan yang baik untuk sistem imun?",
-                "Mengapa penting menjaga sistem imun?",
-                "Apa tanda-tanda sistem imun yang lemah?"
-            ],
-            "responses": [
-                "Sistem imun adalah pertahanan tubuh terhadap infeksi dan penyakit. Memperkuat sistem imun bisa dilakukan dengan makan makanan bergizi, cukup tidur, dan olahraga. Makanan yang baik untuk sistem imun termasuk buah-buahan sitrus, bawang putih, dan jahe."
-            ],
-            "context": [""]
+          "tag": "sistem_imun",
+          "patterns": [
+            "Apa itu sistem imun?",
+            "Bagaimana cara memperkuat sistem imun?",
+            "Apa saja makanan yang baik untuk sistem imun?",
+            "Mengapa penting menjaga sistem imun?",
+            "Apa tanda-tanda sistem imun yang lemah?",
+            "Sistem imun itu apa?",
+            "Cara memperkuat sistem imun gimana?",
+            "Makanan apa yang baik untuk sistem imun?",
+            "Kenapa penting menjaga sistem imun?",
+            "Apa saja tanda sistem imun yang lemah?",
+            "Apa definisi sistem imun?",
+            "Bagaimana cara meningkatkan sistem imun?",
+            "Makanan apa yang bisa memperkuat sistem imun?",
+            "Mengapa penting memiliki sistem imun yang kuat?",
+            "Apa gejala sistem imun yang lemah?"
+          ],
+          "responses": [
+            "Sistem imun adalah pertahanan tubuh terhadap infeksi dan penyakit. Memperkuat sistem imun bisa dilakukan dengan makan makanan bergizi, cukup tidur, dan olahraga. Makanan yang baik untuk sistem imun termasuk buah-buahan sitrus, bawang putih, dan jahe."
+          ],
+          "context": [
+            ""
+          ]
         },
         {
-            "tag": "alergi_gandum",
-            "patterns": [
-                "Apa itu alergi gandum?",
-                "Apa saja gejala alergi gandum?",
-                "Bagaimana cara mengelola alergi gandum?",
-                "Apa saja makanan yang harus dihindari jika alergi gandum?",
-                "Apakah ada pengganti gandum bagi penderita alergi?"
-            ],
-            "responses": [
-                "Alergi gandum adalah reaksi alergi terhadap protein dalam gandum. Gejala alergi gandum bisa berupa gatal-gatal, bengkak, dan kesulitan bernapas. Pengganti gandum termasuk tepung almond, tepung kelapa, dan tepung jagung."
-            ],
-            "context": [""]
+          "tag": "alergi_gandum",
+          "patterns": [
+            "Apa itu alergi gandum?",
+            "Apa saja gejala alergi gandum?",
+            "Bagaimana cara mengelola alergi gandum?",
+            "Apa saja makanan yang harus dihindari jika alergi gandum?",
+            "Apakah ada pengganti gandum bagi penderita alergi?",
+            "Alergi gandum itu apa?",
+            "Gejala alergi gandum apa saja?",
+            "Cara mengelola alergi gandum gimana?",
+            "Makanan apa yang harus dihindari kalau alergi gandum?",
+            "Apa pengganti gandum bagi yang alergi?",
+            "Apa yang dimaksud dengan alergi gandum?",
+            "Apa saja tanda alergi gandum?",
+            "Bagaimana cara menangani alergi gandum?",
+            "Makanan apa yang harus dihindari saat alergi gandum?",
+            "Apakah ada alternatif untuk gandum bagi penderita alergi?"
+          ],
+          "responses": [
+            "Alergi gandum adalah reaksi alergi terhadap protein dalam gandum. Gejala alergi gandum bisa berupa gatal-gatal, bengkak, dan kesulitan bernapas. Pengganti gandum termasuk tepung almond, tepung kelapa, dan tepung jagung."
+          ],
+          "context": [
+            ""
+          ]
         },
         {
             "tag": "hidup_sehat",
@@ -911,7 +1160,10 @@
                 "Bagaimana cara memulai gaya hidup sehat?",
                 "Mengapa penting untuk menjalani hidup sehat?",
                 "Apa manfaat hidup sehat?",
-                "Bagaimana cara menjaga konsistensi dalam hidup sehat?"
+                "Bagaimana cara menjaga konsistensi dalam hidup sehat?",
+                "Bagaimana cara memotivasi diri untuk hidup sehat?",
+                "Apa kebiasaan harian yang mendukung hidup sehat?",
+                "Bagaimana cara mengubah kebiasaan buruk menjadi hidup sehat?"
             ],
             "responses": [
                 "Tips hidup sehat termasuk makan makanan bergizi, berolahraga, dan cukup tidur. Hidup sehat penting untuk mencegah penyakit dan meningkatkan kualitas hidup. Manfaat hidup sehat termasuk peningkatan energi, berat badan ideal, dan mood yang lebih baik."
@@ -925,7 +1177,10 @@
                 "Apa saja makanan yang bisa dimakan mentah?",
                 "Bagaimana cara mengolah makanan mentah agar aman dikonsumsi?",
                 "Apa risiko makan makanan mentah?",
-                "Apa yang dimaksud dengan diet makanan mentah?"
+                "Apa yang dimaksud dengan diet makanan mentah?",
+                "Apakah makan makanan mentah lebih sehat?",
+                "Bagaimana cara memastikan keamanan makanan mentah?",
+                "Apa perbedaan antara diet makanan mentah dan diet lainnya?"
             ],
             "responses": [
                 "Makanan mentah mengandung enzim dan nutrisi yang bisa hilang selama proses memasak. Contoh makanan yang bisa dimakan mentah termasuk buah-buahan, sayuran, dan kacang-kacangan. Risiko makan makanan mentah termasuk kontaminasi bakteri, sehingga penting untuk mencuci dengan baik."
@@ -939,7 +1194,10 @@
                 "Kapan sebaiknya mengonsumsi suplemen?",
                 "Apakah suplemen diperlukan jika sudah makan sehat?",
                 "Apa saja jenis suplemen yang umum?",
-                "Apa efek samping dari suplemen?"
+                "Apa efek samping dari suplemen?",
+                "Bagaimana cara memilih suplemen yang tepat?",
+                "Apakah suplemen bisa menggantikan makanan?",
+                "Kapan waktu terbaik untuk mengonsumsi suplemen?"
             ],
             "responses": [
                 "Suplemen adalah produk yang mengandung satu atau lebih nutrisi tambahan untuk melengkapi diet. Suplemen sebaiknya dikonsumsi jika kebutuhan nutrisi tidak tercukupi dari makanan. Jenis suplemen yang umum termasuk vitamin, mineral, dan asam amino."
@@ -953,7 +1211,10 @@
                 "Bagaimana cara melakukan detoksifikasi tubuh?",
                 "Apa manfaat detoksifikasi?",
                 "Apakah detoksifikasi diperlukan?",
-                "Apa saja makanan yang membantu detoksifikasi tubuh?"
+                "Apa saja makanan yang membantu detoksifikasi tubuh?",
+                "Bagaimana cara detoksifikasi tubuh secara alami?",
+                "Apakah detoksifikasi aman untuk semua orang?",
+                "Berapa lama waktu yang dibutuhkan untuk detoksifikasi tubuh?"
             ],
             "responses": [
                 "Detoksifikasi adalah proses membersihkan tubuh dari racun. Cara melakukan detoksifikasi termasuk minum banyak air, makan makanan berserat, dan menghindari makanan olahan. Makanan yang membantu detoksifikasi termasuk sayuran hijau, buah-buahan, dan air lemon."
@@ -967,7 +1228,10 @@
                 "Bagaimana cara mengatur pola makan sehat?",
                 "Apa saja contoh pola makan sehat?",
                 "Mengapa pola makan sehat penting?",
-                "Bagaimana cara memulai pola makan sehat?"
+                "Bagaimana cara memulai pola makan sehat?",
+                "Apa yang dimaksud dengan pola makan seimbang?",
+                "Bagaimana cara merencanakan pola makan sehat?",
+                "Apa saja makanan yang termasuk dalam pola makan sehat?"
             ],
             "responses": [
                 "Pola makan sehat adalah pola makan yang seimbang dan mencakup semua kelompok makanan. Mengatur pola makan sehat bisa dilakukan dengan merencanakan menu dan menghindari makanan olahan. Contoh pola makan sehat termasuk diet mediterania dan diet DASH."
@@ -981,7 +1245,10 @@
                 "Berapa banyak air yang harus diminum saat berolahraga?",
                 "Apa tanda-tanda dehidrasi saat berolahraga?",
                 "Bagaimana cara menjaga hidrasi saat berolahraga?",
-                "Apa minuman terbaik untuk hidrasi saat berolahraga?"
+                "Apa minuman terbaik untuk hidrasi saat berolahraga?",
+                "Apa efek dehidrasi pada performa olahraga?",
+                "Bagaimana cara mengetahui jika tubuh dehidrasi?",
+                "Apa yang harus diminum selama olahraga berat?"
             ],
             "responses": [
                 "Hidrasi saat berolahraga penting untuk menjaga performa dan mencegah dehidrasi. Jumlah air yang harus diminum tergantung pada durasi dan intensitas olahraga, tetapi umumnya sekitar 500-600 ml per jam. Minuman elektrolit bisa membantu menggantikan cairan dan mineral yang hilang selama olahraga."
@@ -2168,7 +2435,10 @@
             "patterns": [
                 "Apa manfaat dari bakwan?",
                 "Apa kandungan gizi bakwan?",
-                "Apakah bakwan baik untuk kesehatan?"
+                "Apakah bakwan baik untuk kesehatan?",
+                "Apakah bakwan bergizi?",
+                "Bakwan mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam bakwan?"
             ],
             "responses": [
                 "Bakwan adalah camilan yang terbuat dari sayuran, jadi bisa menjadi sumber serat dan vitamin. Bakwan yang digoreng dapat tinggi lemak, jadi pilihlah versi yang dipanggang atau digoreng dengan sedikit minyak untuk pilihan yang lebih sehat. Kombinasi sayuran dalam bakwan memberikan berbagai nutrisi penting untuk tubuh."
@@ -2180,7 +2450,10 @@
             "patterns": [
                 "Apa manfaat dari mie ayam?",
                 "Apa kandungan gizi mie ayam?",
-                "Apakah mie ayam baik untuk kesehatan?"
+                "Apakah mie ayam baik untuk kesehatan?",
+                "Apakah mie ayam sehat?",
+                "Mie ayam mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam mie ayam?"
             ],
             "responses": [
                 "Mie ayam adalah sumber karbohidrat dan protein dari mie dan ayam, baik untuk energi dan pembentukan otot. Tambahkan sayuran seperti sawi untuk meningkatkan nilai gizinya. Pilihlah mie ayam dengan kaldu rendah garam dan minyak untuk versi yang lebih sehat."
@@ -2192,7 +2465,10 @@
             "patterns": [
                 "Apa manfaat dari ayam geprek?",
                 "Apa kandungan gizi ayam geprek?",
-                "Apakah ayam geprek baik untuk kesehatan?"
+                "Apakah ayam geprek baik untuk kesehatan?",
+                "Apakah ayam geprek sehat?",
+                "Ayam geprek mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam ayam geprek?"
             ],
             "responses": [
                 "Ayam geprek adalah sumber protein dari ayam, baik untuk pembentukan otot dan jaringan tubuh. Sambal dalam ayam geprek bisa memberikan antioksidan dari cabai. Namun, ayam geprek yang digoreng dengan banyak minyak dan sambal yang tinggi garam bisa kurang sehat jika dikonsumsi berlebihan, jadi konsumsilah dengan bijak."
@@ -2204,7 +2480,10 @@
             "patterns": [
                 "Apa manfaat dari ayam bakar?",
                 "Apa kandungan gizi ayam bakar?",
-                "Apakah ayam bakar baik untuk kesehatan?"
+                "Apakah ayam bakar baik untuk kesehatan?",
+                "Apakah ayam bakar sehat?",
+                "Ayam bakar mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam ayam bakar?"
             ],
             "responses": [
                 "Ayam bakar adalah sumber protein yang baik dan lebih rendah lemak dibandingkan ayam goreng. Proses pemanggangan bisa mengurangi kandungan lemak dalam ayam. Bumbu rempah pada ayam bakar bisa memberikan manfaat tambahan seperti anti-inflamasi."
@@ -2216,7 +2495,10 @@
             "patterns": [
                 "Apa manfaat dari es krim?",
                 "Apa kandungan gizi es krim?",
-                "Apakah es krim baik untuk kesehatan?"
+                "Apakah es krim baik untuk kesehatan?",
+                "Apakah es krim sehat?",
+                "Es krim mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam es krim?"
             ],
             "responses": [
                 "Es krim adalah sumber kalsium yang baik, yang penting untuk kesehatan tulang. Namun, es krim juga tinggi gula dan lemak, sehingga konsumsi sebaiknya dibatasi. Es krim dapat memberikan kesenangan dan kenyamanan emosional, tetapi penting untuk menikmati dengan bijak."
@@ -2228,7 +2510,10 @@
             "patterns": [
                 "Apa manfaat dari beef burger?",
                 "Apa kandungan gizi beef burger?",
-                "Apakah beef burger baik untuk kesehatan?"
+                "Apakah beef burger baik untuk kesehatan?",
+                "Apakah beef burger sehat?",
+                "Beef burger mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam beef burger?"
             ],
             "responses": [
                 "Beef burger adalah sumber protein yang baik dari daging sapi. Jika ditambahkan sayuran seperti selada, tomat, dan bawang, beef burger bisa menjadi hidangan yang lebih seimbang. Namun, penting untuk memperhatikan jumlah lemak jenuh dan kalori dalam beef burger, terutama jika disajikan dengan tambahan seperti keju dan saus."
@@ -2240,7 +2525,10 @@
             "patterns": [
                 "Apa manfaat dari teh manis?",
                 "Apa kandungan gizi teh manis?",
-                "Apakah teh manis baik untuk kesehatan?"
+                "Apakah teh manis baik untuk kesehatan?",
+                "Apakah teh manis sehat?",
+                "Teh manis mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam teh manis?"
             ],
             "responses": [
                 "Teh manis mengandung antioksidan yang baik untuk kesehatan jantung dan dapat membantu melawan radikal bebas. Namun, teh manis juga tinggi gula, yang bisa berdampak negatif pada kesehatan jika dikonsumsi berlebihan. Pilihlah teh dengan sedikit atau tanpa tambahan gula untuk pilihan yang lebih sehat."
@@ -2252,7 +2540,10 @@
             "patterns": [
                 "Apa manfaat dari teh tawar?",
                 "Apa kandungan gizi teh tawar?",
-                "Apakah teh tawar baik untuk kesehatan?"
+                "Apakah teh tawar baik untuk kesehatan?",
+                "Apakah teh tawar sehat?",
+                "Teh tawar mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam teh tawar?"
             ],
             "responses": [
                 "Teh tawar kaya akan antioksidan yang dapat membantu melawan radikal bebas dan menjaga kesehatan jantung. Teh tawar juga rendah kalori, menjadikannya pilihan minuman yang sehat. Teh tawar dapat membantu meningkatkan metabolisme dan memberikan efek relaksasi."
@@ -2264,7 +2555,10 @@
             "patterns": [
                 "Apa manfaat dari lontong?",
                 "Apa kandungan gizi lontong?",
-                "Apakah lontong baik untuk kesehatan?"
+                "Apakah lontong baik untuk kesehatan?",
+                "Apakah lontong sehat?",
+                "Lontong mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam lontong?"
             ],
             "responses": [
                 "Lontong adalah sumber karbohidrat yang memberikan energi cepat. Lontong juga rendah lemak, menjadikannya pilihan yang baik untuk diet rendah lemak. Namun, perhatikan porsi lontong karena karbohidrat yang tinggi dapat mempengaruhi kadar gula darah jika dikonsumsi berlebihan."
@@ -2276,7 +2570,10 @@
             "patterns": [
                 "Apa manfaat dari nasi uduk?",
                 "Apa kandungan gizi nasi uduk?",
-                "Apakah nasi uduk baik untuk kesehatan?"
+                "Apakah nasi uduk baik untuk kesehatan?",
+                "Apakah nasi uduk sehat?",
+                "Nasi uduk mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam nasi uduk?"
             ],
             "responses": [
                 "Nasi uduk adalah sumber karbohidrat yang memberikan energi cepat. Nasi uduk yang dimasak dengan santan memiliki kandungan lemak yang lebih tinggi, jadi konsumsilah dengan bijak. Tambahan lauk seperti tempe, tahu, dan sayuran dalam nasi uduk bisa meningkatkan nilai gizi hidangan ini."
@@ -2288,7 +2585,10 @@
             "patterns": [
                 "Apa manfaat dari nasi kuning?",
                 "Apa kandungan gizi nasi kuning?",
-                "Apakah nasi kuning baik untuk kesehatan?"
+                "Apakah nasi kuning baik untuk kesehatan?",
+                "Apakah nasi kuning sehat?",
+                "Nasi kuning mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam nasi kuning?"
             ],
             "responses": [
                 "Nasi kuning mengandung karbohidrat yang memberikan energi cepat. Warna kuning dari kunyit dalam nasi kuning memberikan manfaat anti-inflamasi. Tambahan lauk seperti telur, ayam, dan sayuran dapat meningkatkan nilai gizi nasi kuning."
@@ -2300,7 +2600,10 @@
             "patterns": [
                 "Apa manfaat dari lontong sayur?",
                 "Apa kandungan gizi lontong sayur?",
-                "Apakah lontong sayur baik untuk kesehatan?"
+                "Apakah lontong sayur baik untuk kesehatan?",
+                "Apakah lontong sayur sehat?",
+                "Lontong sayur mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam lontong sayur?"
             ],
             "responses": [
                 "Lontong sayur mengandung karbohidrat dari lontong dan serat dari sayuran. Tambahan protein dari tahu dan tempe dalam lontong sayur meningkatkan nilai gizinya. Sayur dalam lontong sayur kaya akan vitamin dan mineral penting untuk kesehatan tubuh."
@@ -2312,10 +2615,13 @@
             "patterns": [
                 "Apa manfaat dari soto Betawi?",
                 "Apa kandungan gizi soto Betawi?",
-                "Apakah soto Betawi baik untuk kesehatan?"
+                "Apakah soto Betawi baik untuk kesehatan?",
+                "Apakah soto Betawi sehat?",
+                "Soto Betawi mengandung apa saja?",
+                "Bagaimana kandungan nutrisi dalam soto Betawi?"
             ],
             "responses": [
-                "Soto Betawi mengandung protein dari daging sapi atau ayam dan berbagai sayuran. Kuah santan dalam soto Betawi menambah kandungan lemak, jadi konsumsilah dengan bijak. Soto Betawi juga mengandung rempah-rempah yang memiliki manfaat anti-inflamasi."
+                "Soto Betawi adalah sumber protein dari daging sapi dan jeroan, serta lemak dari santan. Tambahan sayuran seperti tomat dan kentang dalam soto Betawi memberikan vitamin dan serat. Pilihlah soto Betawi dengan kuah lebih sedikit dan tambahkan sayuran untuk versi yang lebih sehat."
             ],
             "context": [""]
         },
@@ -2324,7 +2630,14 @@
             "patterns": [
                 "Apa manfaat dari rendang?",
                 "Apa kandungan gizi rendang?",
-                "Apakah rendang baik untuk kesehatan?"
+                "Apakah rendang baik untuk kesehatan?",
+                "Apa kelebihan rendang untuk tubuh?",
+                "Mengapa rendang disebut sehat?",
+                "Manfaat kesehatan dari makan rendang?",
+                "Bagaimana rendang mempengaruhi kesehatan kita?",
+                "Apa saja kandungan dalam rendang yang bermanfaat?",
+                "Apakah makan rendang bagus untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam rendang?"
             ],
             "responses": [
                 "Rendang adalah sumber protein dari daging sapi yang kaya. Bumbu-bumbu dalam rendang seperti kunyit, serai, dan lengkuas memiliki manfaat anti-inflamasi. Namun, rendang sering kali tinggi lemak jenuh, jadi konsumsilah dengan bijak."
@@ -2336,7 +2649,14 @@
             "patterns": [
                 "Apa manfaat dari mangga?",
                 "Apa kandungan gizi mangga?",
-                "Mengapa mangga baik untuk kesehatan?"
+                "Mengapa mangga baik untuk kesehatan?",
+                "Apa kelebihan mangga untuk tubuh?",
+                "Manfaat kesehatan dari makan mangga?",
+                "Apa yang membuat mangga sehat?",
+                "Bagaimana mangga membantu kesehatan kita?",
+                "Apa saja kandungan dalam mangga yang bermanfaat?",
+                "Apakah makan mangga baik untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam mangga?"
             ],
             "responses": [
                 "Mangga kaya akan vitamin C, vitamin A, dan serat, baik untuk sistem kekebalan tubuh dan pencernaan. Mangga juga mengandung antioksidan yang membantu melawan radikal bebas. Kandungan serat dalam mangga membantu menjaga kesehatan pencernaan."
@@ -2348,7 +2668,14 @@
             "patterns": [
                 "Apa manfaat dari apel?",
                 "Apa kandungan gizi apel?",
-                "Mengapa apel baik untuk kesehatan?"
+                "Mengapa apel baik untuk kesehatan?",
+                "Apa kelebihan apel untuk tubuh?",
+                "Manfaat kesehatan dari makan apel?",
+                "Apa yang membuat apel sehat?",
+                "Bagaimana apel mempengaruhi kesehatan kita?",
+                "Apa saja kandungan dalam apel yang bermanfaat?",
+                "Apakah makan apel bagus untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam apel?"
             ],
             "responses": [
                 "Apel kaya akan serat dan vitamin C, baik untuk pencernaan dan sistem kekebalan tubuh. Apel juga mengandung antioksidan yang membantu melawan radikal bebas. Konsumsi apel secara rutin dapat membantu menjaga kesehatan jantung."
@@ -2360,7 +2687,14 @@
             "patterns": [
                 "Apa manfaat dari pisang?",
                 "Apa kandungan gizi pisang?",
-                "Mengapa pisang baik untuk kesehatan?"
+                "Mengapa pisang baik untuk kesehatan?",
+                "Apa kelebihan pisang untuk tubuh?",
+                "Manfaat kesehatan dari makan pisang?",
+                "Apa yang membuat pisang sehat?",
+                "Bagaimana pisang mempengaruhi kesehatan kita?",
+                "Apa saja kandungan dalam pisang yang bermanfaat?",
+                "Apakah makan pisang bagus untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam pisang?"
             ],
             "responses": [
                 "Pisang kaya akan kalium, yang baik untuk kesehatan jantung dan fungsi otot. Pisang juga mengandung vitamin B6 dan vitamin C. Serat dalam pisang membantu menjaga kesehatan pencernaan."
@@ -2372,7 +2706,14 @@
             "patterns": [
                 "Apa manfaat dari jeruk?",
                 "Apa kandungan gizi jeruk?",
-                "Mengapa jeruk baik untuk kesehatan?"
+                "Mengapa jeruk baik untuk kesehatan?",
+                "Apa kelebihan jeruk untuk tubuh?",
+                "Manfaat kesehatan dari makan jeruk?",
+                "Apa yang membuat jeruk sehat?",
+                "Bagaimana jeruk mempengaruhi kesehatan kita?",
+                "Apa saja kandungan dalam jeruk yang bermanfaat?",
+                "Apakah makan jeruk bagus untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam jeruk?"
             ],
             "responses": [
                 "Jeruk kaya akan vitamin C, yang baik untuk sistem kekebalan tubuh dan kulit. Jeruk juga mengandung antioksidan yang membantu melawan radikal bebas. Kandungan serat dalam jeruk baik untuk pencernaan."
@@ -2384,7 +2725,14 @@
             "patterns": [
                 "Apa manfaat dari semangka?",
                 "Apa kandungan gizi semangka?",
-                "Mengapa semangka baik untuk kesehatan?"
+                "Mengapa semangka baik untuk kesehatan?",
+                "Apa kelebihan semangka untuk tubuh?",
+                "Manfaat kesehatan dari makan semangka?",
+                "Apa yang membuat semangka sehat?",
+                "Bagaimana semangka mempengaruhi kesehatan kita?",
+                "Apa saja kandungan dalam semangka yang bermanfaat?",
+                "Apakah makan semangka bagus untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam semangka?"
             ],
             "responses": [
                 "Semangka kaya akan air, baik untuk menjaga hidrasi tubuh. Semangka juga mengandung vitamin A, vitamin C, dan antioksidan. Kandungan likopen dalam semangka baik untuk kesehatan jantung."
@@ -2396,7 +2744,14 @@
             "patterns": [
                 "Apa manfaat dari anggur?",
                 "Apa kandungan gizi anggur?",
-                "Mengapa anggur baik untuk kesehatan?"
+                "Mengapa anggur baik untuk kesehatan?",
+                "Apa kelebihan anggur untuk tubuh?",
+                "Manfaat kesehatan dari makan anggur?",
+                "Apa yang membuat anggur sehat?",
+                "Bagaimana anggur mempengaruhi kesehatan kita?",
+                "Apa saja kandungan dalam anggur yang bermanfaat?",
+                "Apakah makan anggur bagus untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam anggur?"
             ],
             "responses": [
                 "Anggur kaya akan antioksidan seperti resveratrol, baik untuk kesehatan jantung. Anggur juga mengandung vitamin C dan vitamin K. Serat dalam anggur membantu menjaga kesehatan pencernaan."
@@ -2408,7 +2763,14 @@
             "patterns": [
                 "Apa manfaat dari kiwi?",
                 "Apa kandungan gizi kiwi?",
-                "Mengapa kiwi baik untuk kesehatan?"
+                "Mengapa kiwi baik untuk kesehatan?",
+                "Apa kelebihan kiwi untuk tubuh?",
+                "Manfaat kesehatan dari makan kiwi?",
+                "Apa yang membuat kiwi sehat?",
+                "Bagaimana kiwi mempengaruhi kesehatan kita?",
+                "Apa saja kandungan dalam kiwi yang bermanfaat?",
+                "Apakah makan kiwi bagus untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam kiwi?"
             ],
             "responses": [
                 "Kiwi kaya akan vitamin C, vitamin K, dan serat, baik untuk sistem kekebalan tubuh dan pencernaan. Kiwi juga mengandung antioksidan yang membantu melawan radikal bebas. Konsumsi kiwi secara rutin dapat membantu menjaga kesehatan jantung."
@@ -2420,7 +2782,14 @@
             "patterns": [
                 "Apa manfaat dari pepaya?",
                 "Apa kandungan gizi pepaya?",
-                "Mengapa pepaya baik untuk kesehatan?"
+                "Mengapa pepaya baik untuk kesehatan?",
+                "Apa kelebihan pepaya untuk tubuh?",
+                "Manfaat kesehatan dari makan pepaya?",
+                "Apa yang membuat pepaya sehat?",
+                "Bagaimana pepaya mempengaruhi kesehatan kita?",
+                "Apa saja kandungan dalam pepaya yang bermanfaat?",
+                "Apakah makan pepaya bagus untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam pepaya?"
             ],
             "responses": [
                 "Pepaya kaya akan vitamin C, vitamin A, dan serat, baik untuk sistem kekebalan tubuh dan pencernaan. Pepaya juga mengandung enzim papain yang membantu pencernaan protein. Konsumsi pepaya secara rutin dapat membantu menjaga kesehatan kulit dan mata."
@@ -2430,12 +2799,19 @@
         {
             "tag": "manfaat_buah_rambutan",
             "patterns": [
-              "Apa manfaat dari rambutan?",
-              "Apa kandungan gizi rambutan?",
-              "Mengapa rambutan baik untuk kesehatan?"
+                "Apa manfaat dari rambutan?",
+                "Apa kandungan gizi rambutan?",
+                "Mengapa rambutan baik untuk kesehatan?",
+                "Apa kelebihan rambutan untuk tubuh?",
+                "Manfaat kesehatan dari makan rambutan?",
+                "Apa yang membuat rambutan sehat?",
+                "Bagaimana rambutan mempengaruhi kesehatan kita?",
+                "Apa saja kandungan dalam rambutan yang bermanfaat?",
+                "Apakah makan rambutan bagus untuk tubuh?",
+                "Kandungan nutrisi apa yang ada dalam rambutan?"
             ],
             "responses": [
-              "Rambutan kaya akan vitamin C, yang baik untuk sistem kekebalan tubuh. Rambutan juga mengandung zat besi yang membantu mengatasi anemia. Serat dalam rambutan baik untuk pencernaan."
+                "Rambutan kaya akan vitamin C, yang baik untuk sistem kekebalan tubuh. Rambutan juga mengandung zat besi yang membantu mengatasi anemia. Serat dalam rambutan baik untuk pencernaan."
             ],
             "context": [""]
         },
@@ -2444,171 +2820,247 @@
             "patterns": [
                 "Apa itu lemak jenuh?",
                 "Lemak jenuh",
-                "lemak jenuh"
+                "lemak jenuh",
+                "Apa pengertian lemak jenuh?",
+                "Apakah lemak jenuh itu?",
+                "Apa efek lemak jenuh pada kesehatan?",
+                "Mengapa lemak jenuh dianggap tidak sehat?",
+                "Apa saja makanan yang mengandung lemak jenuh?",
+                "Bagaimana lemak jenuh mempengaruhi tubuh?",
+                "Apakah lemak jenuh perlu dihindari?"
             ],
             "responses": [
                 "Lemak jenuh adalah jenis lemak yang biasanya padat pada suhu ruangan. Lemak jenuh dapat ditemukan dalam produk hewani seperti daging merah, mentega, keju, dan minyak kelapa. Konsumsi lemak jenuh berlebihan dapat meningkatkan risiko penyakit jantung."
             ],
-            "context": [
-                ""
-            ]
+            "context": [""]
         },
         {
             "tag": "polyunsaturatedFat",
             "patterns": [
                 "Apa itu lemak tak jenuh ganda?",
                 "Lemak tak jenuh ganda",
-                "lemak tak jenuh ganda"
+                "lemak tak jenuh ganda",
+                "Apa pengertian lemak tak jenuh ganda?",
+                "Apakah lemak tak jenuh ganda itu?",
+                "Apa manfaat lemak tak jenuh ganda?",
+                "Mengapa lemak tak jenuh ganda baik untuk kesehatan?",
+                "Apa saja makanan yang mengandung lemak tak jenuh ganda?",
+                "Bagaimana lemak tak jenuh ganda mempengaruhi tubuh?",
+                "Apakah lemak tak jenuh ganda perlu dikonsumsi?"
             ],
             "responses": [
                 "Lemak tak jenuh ganda adalah jenis lemak sehat yang dapat membantu menurunkan kadar kolesterol jahat dalam darah. Lemak ini ditemukan dalam makanan seperti ikan berlemak (misalnya salmon), biji-bijian, dan minyak sayur (seperti minyak bunga matahari dan minyak jagung)."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "sugar",
             "patterns": [
                 "Apa itu gula?",
                 "Gula",
-                "gula"
+                "gula",
+                "Apa pengertian gula?",
+                "Apakah gula itu?",
+                "Apa efek gula pada kesehatan?",
+                "Mengapa gula dianggap tidak sehat?",
+                "Apa saja makanan yang mengandung gula?",
+                "Bagaimana gula mempengaruhi tubuh?",
+                "Apakah gula perlu dihindari?"
             ],
             "responses": [
                 "Gula adalah jenis karbohidrat sederhana yang dapat ditemukan secara alami dalam banyak makanan seperti buah-buahan, sayuran, dan susu, atau ditambahkan ke makanan dan minuman. Gula memberikan energi instan, tetapi konsumsi berlebihan dapat menyebabkan masalah kesehatan seperti obesitas dan diabetes."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "phosphorus",
             "patterns": [
                 "Apa itu fosfor?",
                 "Fosfor",
-                "fosfor"
+                "fosfor",
+                "Apa pengertian fosfor?",
+                "Apakah fosfor itu?",
+                "Apa manfaat fosfor bagi tubuh?",
+                "Mengapa fosfor penting untuk kesehatan?",
+                "Apa saja makanan yang mengandung fosfor?",
+                "Bagaimana fosfor mempengaruhi tubuh?",
+                "Apakah fosfor diperlukan untuk kesehatan?"
             ],
             "responses": [
                 "Fosfor adalah mineral penting yang dibutuhkan tubuh untuk membangun dan memperbaiki tulang dan gigi, serta membantu fungsi sel dan produksi energi. Fosfor ditemukan dalam banyak makanan seperti daging, ikan, telur, dan produk susu."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "sodium",
             "patterns": [
                 "Apa itu natrium?",
                 "Natrium",
-                "natrium"
+                "natrium",
+                "Apa pengertian natrium?",
+                "Apakah natrium itu?",
+                "Apa efek natrium pada kesehatan?",
+                "Mengapa natrium penting untuk tubuh?",
+                "Apa saja makanan yang mengandung natrium?",
+                "Bagaimana natrium mempengaruhi tubuh?",
+                "Apakah natrium berbahaya?"
             ],
             "responses": [
                 "Natrium adalah mineral yang memainkan peran penting dalam menjaga keseimbangan cairan dan fungsi saraf dalam tubuh. Natrium ditemukan dalam garam meja dan banyak makanan olahan. Konsumsi natrium berlebihan dapat menyebabkan tekanan darah tinggi."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "potassium",
             "patterns": [
                 "Apa itu kalium?",
                 "Kalium",
-                "kalium"
+                "kalium",
+                "Apa manfaat kalium bagi tubuh?",
+                "Mengapa kalium penting?",
+                "Makanan apa yang mengandung kalium?",
+                "Bagaimana kalium mempengaruhi kesehatan?",
+                "Apa efek kekurangan kalium?",
+                "Apakah kalium itu?",
+                "Kalium ditemukan di mana?"
             ],
             "responses": [
                 "Kalium adalah mineral penting yang membantu menjaga keseimbangan cairan, fungsi saraf, dan kontraksi otot. Kalium ditemukan dalam banyak buah dan sayuran seperti pisang, jeruk, dan kentang."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "copper",
             "patterns": [
                 "Apa itu tembaga?",
                 "Tembaga",
-                "tembaga"
+                "tembaga",
+                "Apa manfaat tembaga bagi tubuh?",
+                "Mengapa tembaga penting?",
+                "Makanan apa yang mengandung tembaga?",
+                "Bagaimana tembaga mempengaruhi kesehatan?",
+                "Apa efek kekurangan tembaga?",
+                "Apakah tembaga itu?",
+                "Tembaga ditemukan di mana?"
             ],
             "responses": [
                 "Tembaga adalah mineral penting yang diperlukan untuk produksi sel darah merah, sistem kekebalan tubuh, dan fungsi saraf. Tembaga ditemukan dalam makanan seperti hati, tiram, kacang-kacangan, dan biji-bijian."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "iron",
             "patterns": [
                 "Apa itu zat besi?",
                 "Zat besi",
-                "zat besi"
+                "zat besi",
+                "Apa manfaat zat besi bagi tubuh?",
+                "Mengapa zat besi penting?",
+                "Makanan apa yang mengandung zat besi?",
+                "Bagaimana zat besi mempengaruhi kesehatan?",
+                "Apa efek kekurangan zat besi?",
+                "Apakah zat besi itu?",
+                "Zat besi ditemukan di mana?"
             ],
             "responses": [
                 "Zat besi adalah mineral yang penting untuk produksi hemoglobin, yang mengangkut oksigen dalam darah. Zat besi ditemukan dalam makanan seperti daging merah, hati, bayam, dan kacang-kacangan."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "zinc",
             "patterns": [
                 "Apa itu seng?",
                 "Seng",
-                "seng"
+                "seng",
+                "Apa manfaat seng bagi tubuh?",
+                "Mengapa seng penting?",
+                "Makanan apa yang mengandung seng?",
+                "Bagaimana seng mempengaruhi kesehatan?",
+                "Apa efek kekurangan seng?",
+                "Apakah seng itu?",
+                "Seng ditemukan di mana?"
             ],
             "responses": [
                 "Seng adalah mineral yang penting untuk sistem kekebalan tubuh, penyembuhan luka, dan fungsi DNA. Seng ditemukan dalam makanan seperti daging, kerang, biji labu, dan kacang-kacangan."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "bCarotene",
             "patterns": [
                 "Apa itu beta-karoten?",
                 "Beta-karoten",
-                "beta-karoten"
+                "beta-karoten",
+                "Apa manfaat beta-karoten bagi tubuh?",
+                "Mengapa beta-karoten penting?",
+                "Makanan apa yang mengandung beta-karoten?",
+                "Bagaimana beta-karoten mempengaruhi kesehatan?",
+                "Apa efek kekurangan beta-karoten?",
+                "Apakah beta-karoten itu?",
+                "Beta-karoten ditemukan di mana?"
             ],
             "responses": [
                 "Beta-karoten adalah pigmen yang ditemukan dalam tanaman yang diubah menjadi vitamin A dalam tubuh. Beta-karoten ditemukan dalam makanan seperti wortel, ubi jalar, dan sayuran berdaun hijau."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "totalCarotene",
             "patterns": [
                 "Apa itu total karotenoid?",
                 "Total karotenoid",
-                "total karotenoid"
+                "total karotenoid",
+                "Apa manfaat total karotenoid bagi tubuh?",
+                "Mengapa total karotenoid penting?",
+                "Makanan apa yang mengandung total karotenoid?",
+                "Bagaimana total karotenoid mempengaruhi kesehatan?",
+                "Apa efek kekurangan total karotenoid?",
+                "Apakah total karotenoid itu?",
+                "Total karotenoid ditemukan di mana?"
             ],
             "responses": [
                 "Total karotenoid adalah jumlah keseluruhan dari berbagai jenis karotenoid, termasuk beta-karoten, yang ditemukan dalam makanan. Karotenoid berfungsi sebagai antioksidan dan prekursor vitamin A. Karotenoid ditemukan dalam buah-buahan dan sayuran berwarna cerah seperti wortel, tomat, dan paprika."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "water",
             "patterns": [
                 "Apa itu air?",
                 "Air",
-                "air"
+                "air",
+                "Apa manfaat air bagi tubuh?",
+                "Mengapa air penting?",
+                "Makanan apa yang mengandung air?",
+                "Bagaimana air mempengaruhi kesehatan?",
+                "Apa efek kekurangan air?",
+                "Apakah air itu?",
+                "Air ditemukan di mana?"
             ],
             "responses": [
                 "Air adalah komponen penting dalam tubuh yang membantu menjaga keseimbangan cairan, mengatur suhu tubuh, dan mendukung fungsi vital lainnya. Air ditemukan dalam banyak makanan, terutama buah-buahan dan sayuran, serta minuman."
             ],
-            "context": [
-                ""
-            ]
-        },{
+            "context": [""]
+        },
+        {
             "tag": "ash",
             "patterns": [
                 "Apa itu abu?",
                 "Abu",
-                "abu"
+                "abu",
+                "Apa manfaat abu bagi tubuh?",
+                "Mengapa abu penting?",
+                "Apa itu mineral abu?",
+                "Bagaimana abu mempengaruhi kesehatan?",
+                "Apa efek kekurangan mineral abu?",
+                "Apakah mineral abu itu?",
+                "Abu mengandung apa saja?"
             ],
             "responses": [
                 "Abu adalah sisa mineral yang tertinggal setelah bahan organik dalam makanan dibakar. Abu mengandung berbagai mineral penting yang dibutuhkan tubuh seperti kalsium, fosfor, kalium, dan magnesium."
             ],
-            "context": [
-                ""
-            ]
+            "context": [""]
         },
         {
           "tag": "mengandung lemak",
